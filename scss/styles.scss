@@ -1,11 +1,26 @@
-$lightblue : #21A0A0;
-$blue : #046865;
+$aqua : #99E1D9;
+$pink : #F7567C;
+$black : #5D576B;
+$white : #FCFCFC;
+$beige : #FFFAE3;
 
 body {
   text-align: center;
-  background: $blue;
+  background: $black;
+  font-size: 16px;
+  color: $aqua;
 
-  .jumbotron {
-    background: $lightblue;
+  h1, h2, h3, label {
+    font-weight: 900;
   }
+
+  .inverted-colors {
+    background: $aqua;
+    color: $black;
+  }
+
+  #search {
+    font-weight: 900;
+  }
+
 }
