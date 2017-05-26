@@ -1,0 +1,11 @@
+$lightblue : #21A0A0;
+$blue : #046865;
+
+body {
+  text-align: center;
+  background: $blue;
+
+  .jumbotron {
+    background: $lightblue;
+  }
+}
