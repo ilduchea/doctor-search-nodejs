@@ -1,8 +1,12 @@
-var Test = require('./../js/doctor.js').testModule;
+var Doctor = require('./../js/doctor.js').doctorModule;
+
+function displayResults(array) {
+  $('.results').text(array);
+}
+
 $(function(){
-  var newTest = new Test();
+  var newDoctor = new Doctor();
   $('h1').click(function() {
-    console.log('User Interface working.');
-    newTest.hey();
+    newDoctor.getDoctors('sore throat', displayResults);
   });
 });
