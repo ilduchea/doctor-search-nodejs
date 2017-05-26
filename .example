@@ -1,0 +1,4763 @@
+exports.example = {
+  "meta": {
+    "data_type": "array",
+    "item_type": "Doctor",
+    "total": 180,
+    "count": 10,
+    "skip": 0,
+    "limit": 10
+  },
+  "data": [
+    {
+      "practices": [
+        {
+          "location_slug": "or-portland",
+          "within_search_area": true,
+          "distance": 1.7121000512185853,
+          "lat": 45.499128,
+          "lon": -122.682664,
+          "uid": "a01769443bb84b337f7d1bedf7af1d53",
+          "name": "Casey Eye Institute - Marquam Hill",
+          "accepts_new_patients": true,
+          "insurance_uids": [
+            "cigna-cignaopenaccessplus",
+            "cigna-cignappo",
+            "uhcwestformerlypacificare-pacificarehmo",
+            "healthnet-healthnetorppo",
+            "bcbsbluecard-bcbsbluecardppo",
+            "multiplan-phcsppo",
+            "providencehealthsystem-providencepreferredppo",
+            "providencehealthsystem-providencepersonaloption",
+            "aetna-aetnamanagedchoiceposopenaccess",
+            "aetna-aetnachoiceposii",
+            "firstchoice-firstchoice",
+            "multiplan-multiplanppo",
+            "multiplan-phcsppokaiser",
+            "aetna-aetnasignatureadministratorsppo",
+            "cigna-vision",
+            "vsp-vsp",
+            "healthnet-healthnetcommunitycarenetworkhmohix",
+            "ibcamerihealth-amerihealthregionalprefntwkepoposppohix",
+            "ibcamerihealth-amerihealthregionalprefntwkhmohmoposhix",
+            "premerabcbs-premeraheritagesignaturehix",
+            "premerabcbs-lifewiseconnecthix",
+            "medicare-medicare",
+            "medicaid-medicaid",
+            "aetna-aetnamdbronzesilverandgoldhmo",
+            "healthnet-bluegoldhmo",
+            "healthnet-hmoexcelcaresilvernetwork",
+            "healthnet-hmoexcelcaresilvernetworkmedicarecob",
+            "pacificsourcehealthplans-pacificsourcepreferredpsn",
+            "regencebluecrossblueshieldoforegon-regenceorpreferredprovidernetwork",
+            "odshealthplan-odsnetwork",
+            "premerabluecross-premeraheritageheritageplus1",
+            "premerabluecross-premeraheritagesignature",
+            "gwhcigna-greatwestppo",
+            "unitedhealthcare-uhcchoicepluspos",
+            "unitedhealthcare-uhcnavigatehmo",
+            "unitedhealthcare-uhcnavigatepos",
+            "unitedhealthcare-uhcoptionsppo",
+            "firsthealthcoventryhealthcare-firsthealthppo"
+          ],
+          "visit_address": {
+            "city": "Portland",
+            "lat": 45.499128,
+            "lon": -122.682664,
+            "state": "OR",
+            "state_long": "Oregon",
+            "street": "3375 SW Terwilliger Blvd",
+            "zip": "97239"
+          },
+          "office_hours": [],
+          "phones": [
+            {
+              "number": "5034943000",
+              "type": "landline"
+            },
+            {
+              "number": "4158334816",
+              "type": "fax"
+            }
+          ],
+          "languages": [
+            {
+              "name": "English",
+              "code": "en"
+            }
+          ]
+        },
+        {
+          "location_slug": "or-portland",
+          "within_search_area": true,
+          "distance": 1.7121000512185853,
+          "lat": 45.499128,
+          "lon": -122.682664,
+          "uid": "c9e4988e8a5bfc3833e794a18c65eab0",
+          "name": "Casey Eye Institute - Marquam Hill",
+          "accepts_new_patients": true,
+          "insurance_uids": [
+            "cigna-cignaopenaccessplus",
+            "cigna-cignappo",
+            "uhcwestformerlypacificare-pacificarehmo",
+            "healthnet-healthnetorppo",
+            "bcbsbluecard-bcbsbluecardppo",
+            "multiplan-phcsppo",
+            "providencehealthsystem-providencepreferredppo",
+            "providencehealthsystem-providencepersonaloption",
+            "aetna-aetnamanagedchoiceposopenaccess",
+            "aetna-aetnachoiceposii",
+            "firstchoice-firstchoice",
+            "multiplan-multiplanppo",
+            "multiplan-phcsppokaiser",
+            "aetna-aetnasignatureadministratorsppo",
+            "cigna-vision",
+            "vsp-vsp",
+            "healthnet-healthnetcommunitycarenetworkhmohix",
+            "ibcamerihealth-amerihealthregionalprefntwkepoposppohix",
+            "ibcamerihealth-amerihealthregionalprefntwkhmohmoposhix",
+            "premerabcbs-premeraheritagesignaturehix",
+            "premerabcbs-lifewiseconnecthix",
+            "medicare-medicare",
+            "medicaid-medicaid",
+            "aetna-aetnamdbronzesilverandgoldhmo",
+            "healthnet-bluegoldhmo",
+            "healthnet-hmoexcelcaresilvernetwork",
+            "healthnet-hmoexcelcaresilvernetworkmedicarecob",
+            "pacificsourcehealthplans-pacificsourcepreferredpsn",
+            "regencebluecrossblueshieldoforegon-regenceorpreferredprovidernetwork",
+            "odshealthplan-odsnetwork",
+            "premerabluecross-premeraheritageheritageplus1",
+            "premerabluecross-premeraheritagesignature",
+            "gwhcigna-greatwestppo",
+            "unitedhealthcare-uhcchoicepluspos",
+            "unitedhealthcare-uhcnavigatehmo",
+            "unitedhealthcare-uhcnavigatepos",
+            "unitedhealthcare-uhcoptionsppo",
+            "firsthealthcoventryhealthcare-firsthealthppo"
+          ],
+          "visit_address": {
+            "city": "Portland",
+            "lat": 45.499128,
+            "lon": -122.682664,
+            "state": "OR",
+            "state_long": "Oregon",
+            "street": "3375 SW Terwilliger Blvd",
+            "zip": "97239"
+          },
+          "office_hours": [],
+          "phones": [
+            {
+              "number": "5034943000",
+              "type": "landline"
+            },
+            {
+              "number": "4158334816",
+              "type": "fax"
+            }
+          ],
+          "languages": [
+            {
+              "name": "English",
+              "code": "en"
+            }
+          ]
+        },
+        {
+          "location_slug": "or-portland",
+          "within_search_area": true,
+          "distance": 1.7121000512185853,
+          "lat": 45.499128,
+          "lon": -122.682664,
+          "uid": "a171a70b216fff1e8682bfeb5a02988c",
+          "name": "Casey Eye Institute - Marquam Hill",
+          "accepts_new_patients": true,
+          "insurance_uids": [
+            "cigna-cignaopenaccessplus",
+            "cigna-cignappo",
+            "uhcwestformerlypacificare-pacificarehmo",
+            "healthnet-healthnetorppo",
+            "bcbsbluecard-bcbsbluecardppo",
+            "multiplan-phcsppo",
+            "providencehealthsystem-providencepreferredppo",
+            "providencehealthsystem-providencepersonaloption",
+            "aetna-aetnamanagedchoiceposopenaccess",
+            "aetna-aetnachoiceposii",
+            "firstchoice-firstchoice",
+            "multiplan-multiplanppo",
+            "multiplan-phcsppokaiser",
+            "aetna-aetnasignatureadministratorsppo",
+            "cigna-vision",
+            "vsp-vsp",
+            "healthnet-healthnetcommunitycarenetworkhmohix",
+            "ibcamerihealth-amerihealthregionalprefntwkepoposppohix",
+            "ibcamerihealth-amerihealthregionalprefntwkhmohmoposhix",
+            "premerabcbs-premeraheritagesignaturehix",
+            "premerabcbs-lifewiseconnecthix",
+            "medicare-medicare",
+            "medicaid-medicaid",
+            "aetna-aetnamdbronzesilverandgoldhmo",
+            "healthnet-bluegoldhmo",
+            "healthnet-hmoexcelcaresilvernetwork",
+            "healthnet-hmoexcelcaresilvernetworkmedicarecob",
+            "pacificsourcehealthplans-pacificsourcepreferredpsn",
+            "regencebluecrossblueshieldoforegon-regenceorpreferredprovidernetwork",
+            "odshealthplan-odsnetwork",
+            "premerabluecross-premeraheritageheritageplus1",
+            "premerabluecross-premeraheritagesignature",
+            "gwhcigna-greatwestppo",
+            "unitedhealthcare-uhcchoicepluspos",
+            "unitedhealthcare-uhcnavigatehmo",
+            "unitedhealthcare-uhcnavigatepos",
+            "unitedhealthcare-uhcoptionsppo",
+            "firsthealthcoventryhealthcare-firsthealthppo"
+          ],
+          "visit_address": {
+            "city": "Portland",
+            "lat": 45.499128,
+            "lon": -122.682664,
+            "state": "OR",
+            "state_long": "Oregon",
+            "street": "3375 SW Terwilliger Blvd",
+            "zip": "97239"
+          },
+          "office_hours": [],
+          "phones": [
+            {
+              "number": "5034943000",
+              "type": "landline"
+            },
+            {
+              "number": "4158334816",
+              "type": "fax"
+            }
+          ],
+          "languages": [
+            {
+              "name": "English",
+              "code": "en"
+            }
+          ]
+        },
+        {
+          "location_slug": "or-portland",
+          "within_search_area": true,
+          "distance": 1.7121000512185853,
+          "lat": 45.499128,
+          "lon": -122.682664,
+          "uid": "6294594cbafd3057e2892e8d4bab0eea",
+          "name": "Casey Eye Institute - Marquam Hill",
+          "accepts_new_patients": true,
+          "insurance_uids": [
+            "cigna-cignaopenaccessplus",
+            "cigna-cignappo",
+            "uhcwestformerlypacificare-pacificarehmo",
+            "healthnet-healthnetorppo",
+            "bcbsbluecard-bcbsbluecardppo",
+            "multiplan-phcsppo",
+            "providencehealthsystem-providencepreferredppo",
+            "providencehealthsystem-providencepersonaloption",
+            "aetna-aetnamanagedchoiceposopenaccess",
+            "aetna-aetnachoiceposii",
+            "firstchoice-firstchoice",
+            "multiplan-multiplanppo",
+            "multiplan-phcsppokaiser",
+            "aetna-aetnasignatureadministratorsppo",
+            "cigna-vision",
+            "vsp-vsp",
+            "healthnet-healthnetcommunitycarenetworkhmohix",
+            "ibcamerihealth-amerihealthregionalprefntwkepoposppohix",
+            "ibcamerihealth-amerihealthregionalprefntwkhmohmoposhix",
+            "premerabcbs-premeraheritagesignaturehix",
+            "premerabcbs-lifewiseconnecthix",
+            "medicare-medicare",
+            "medicaid-medicaid",
+            "aetna-aetnamdbronzesilverandgoldhmo",
+            "healthnet-bluegoldhmo",
+            "healthnet-hmoexcelcaresilvernetwork",
+            "healthnet-hmoexcelcaresilvernetworkmedicarecob",
+            "pacificsourcehealthplans-pacificsourcepreferredpsn",
+            "regencebluecrossblueshieldoforegon-regenceorpreferredprovidernetwork",
+            "odshealthplan-odsnetwork",
+            "premerabluecross-premeraheritageheritageplus1",
+            "premerabluecross-premeraheritagesignature",
+            "gwhcigna-greatwestppo",
+            "unitedhealthcare-uhcchoicepluspos",
+            "unitedhealthcare-uhcnavigatehmo",
+            "unitedhealthcare-uhcnavigatepos",
+            "unitedhealthcare-uhcoptionsppo",
+            "firsthealthcoventryhealthcare-firsthealthppo"
+          ],
+          "visit_address": {
+            "city": "Portland",
+            "lat": 45.499128,
+            "lon": -122.682664,
+            "state": "OR",
+            "state_long": "Oregon",
+            "street": "3375 SW Terwilliger Blvd",
+            "zip": "97239"
+          },
+          "office_hours": [],
+          "phones": [
+            {
+              "number": "5034943000",
+              "type": "landline"
+            },
+            {
+              "number": "4158334816",
+              "type": "fax"
+            }
+          ],
+          "languages": [
+            {
+              "name": "English",
+              "code": "en"
+            }
+          ]
+        },
+        {
+          "location_slug": "or-portland",
+          "within_search_area": true,
+          "distance": 1.034860852188612,
+          "lat": 45.52959,
+          "lon": -122.68998,
+          "uid": "f52344ef9e4a3e60fff3b9148b43c723",
+          "name": "EAR MEDICAL GROUP A PC",
+          "accepts_new_patients": true,
+          "insurance_uids": [
+            "healthnet-healthnetorppo",
+            "uhcwestformerlypacificare-pacificarehmo",
+            "providencehealthsystem-providencepersonaloption",
+            "bcbsbluecard-bcbsbluecardppo",
+            "healthnet-healthnetorcommunitycare",
+            "cigna-cignaopenaccessplus",
+            "providencehealthsystem-providencepreferredppo",
+            "firstchoice-firstchoice",
+            "cigna-cignappo",
+            "multiplan-multiplanppo",
+            "multiplan-phcsppo",
+            "aetna-aetnachoiceposii",
+            "aetna-aetnamanagedchoiceposopenaccess",
+            "premerabcbs-premeraheritagesignaturehix",
+            "premerabcbs-lifewiseconnecthix",
+            "medicare-medicare",
+            "medicaid-medicaid",
+            "pacificsourcehealthplans-pacificsourcepreferredpsn",
+            "regencebluecrossblueshieldoforegon-regenceorpreferredprovidernetwork",
+            "odshealthplan-odsnetwork",
+            "lifewisehealthplanoforegon-lifewisehealthplanoforegon",
+            "premerabluecross-premeraheritageheritageplus1",
+            "premerabluecross-premeraheritagesignature",
+            "premerabluecross-premeralifewiseconnect",
+            "gwhcigna-greatwestppo",
+            "unitedhealthcare-uhcchoicepluspos",
+            "unitedhealthcare-uhcnavigatehmo",
+            "unitedhealthcare-uhcnavigatepos",
+            "unitedhealthcare-uhcoptionsppo",
+            "firsthealthcoventryhealthcare-firsthealthppo"
+          ],
+          "visit_address": {
+            "city": "Portland",
+            "lat": 45.52959,
+            "lon": -122.68998,
+            "state": "OR",
+            "state_long": "Oregon",
+            "street": "911 NW 18th Ave",
+            "zip": "97209"
+          },
+          "office_hours": [],
+          "phones": [
+            {
+              "number": "5032272234",
+              "type": "fax"
+            },
+            {
+              "number": "5032273666",
+              "type": "landline"
+            }
+          ],
+          "languages": [
+            {
+              "name": "English",
+              "code": "en"
+            }
+          ]
+        },
+        {
+          "location_slug": "or-portland",
+          "within_search_area": true,
+          "distance": 1.0155995018596058,
+          "lat": 45.529695,
+          "lon": -122.689618,
+          "uid": "0cb6aab88599e67bac63e526097e7f41",
+          "name": "David Wilson, MD",
+          "accepts_new_patients": true,
+          "insurance_uids": [
+            "firstchoice-firstchoice",
+            "providencehealthsystem-providencepersonaloption",
+            "bcbsbluecard-bcbsbluecardppo",
+            "providencehealthsystem-providencepreferredppo",
+            "premerabcbs-premeraheritagesignaturehix",
+            "premerabcbs-lifewiseconnecthix",
+            "pacificsourcehealthplans-pacificsourcepreferredpsn"
+          ],
+          "visit_address": {
+            "city": "Portland",
+            "lat": 45.529695,
+            "lon": -122.689618,
+            "state": "OR",
+            "state_long": "Oregon",
+            "street": "921 NW 18th Ave",
+            "zip": "97209"
+          },
+          "office_hours": [],
+          "phones": [
+            {
+              "number": "5032273668",
+              "type": "landline"
+            },
+            {
+              "number": "5032272234",
+              "type": "fax"
+            }
+          ],
+          "languages": [
+            {
+              "name": "English",
+              "code": "en"
+            }
+          ]
+        }
+      ],
+      "educations": [],
+      "profile": {
+        "first_name": "David",
+        "middle_name": "Franklin",
+        "last_name": "Wilson",
+        "slug": "david-wilson-md-5",
+        "title": "MD",
+        "image_url": "https://asset1.betterdoctor.com/assets/general_doctor_male.png",
+        "gender": "male",
+        "languages": [
+          {
+            "name": "English",
+            "code": "en"
+          }
+        ],
+        "bio": "Dr. David Wilson, MD, specialist in otolaryngology, otolaryngic allergy, and otology & neurotology, currently treats patients in Portland, Oregon.\n\nDr. Wilson is licensed to treat patients in Oregon.\n\nIn addition to having active medical licenses, Dr. Wilson has been found to hold one or more active medical licenses, and successfully passed a malpractice history screening."
+      },
+      "ratings": [],
+      "insurances": [
+        {
+          "insurance_plan": {
+            "uid": "cigna-cignaopenaccessplus",
+            "name": "CIGNA Open Access Plus",
+            "category": [
+              "medical"
+            ]
+          },
+          "insurance_provider": {
+            "uid": "cigna",
+            "name": "Cigna"
+          }
+        },
+        {
+          "insurance_plan": {
+            "uid": "cigna-cignappo",
+            "name": "CIGNA PPO",
+            "category": [
+              "medical"
+            ]
+          },
+          "insurance_provider": {
+            "uid": "cigna",
+            "name": "Cigna"
+          }
+        },
+        {
+          "insurance_plan": {
+            "uid": "uhcwestformerlypacificare-pacificarehmo",
+            "name": "Pacificare HMO",
+            "category": [
+              "medical"
+            ]
+          },
+          "insurance_provider": {
+            "uid": "uhcwestformerlypacificare",
+            "name": "UHC West Formerly Pacificare"
+          }
+        },
+        {
+          "insurance_plan": {
+            "uid": "healthnet-healthnetorppo",
+            "name": "Health Net OR PPO",
+            "category": [
+              "medical"
+            ]
+          },
+          "insurance_provider": {
+            "uid": "healthnet",
+            "name": "Health Net"
+          }
+        },
+        {
+          "insurance_plan": {
+            "uid": "bcbsbluecard-bcbsbluecardppo",
+            "name": "BCBS Blue Card PPO",
+            "category": [
+              "medical"
+            ]
+          },
+          "insurance_provider": {
+            "uid": "bcbsbluecard",
+            "name": "BCBS Blue Card"
+          }
+        },
+        {
+          "insurance_plan": {
+            "uid": "multiplan-phcsppo",
+            "name": "PHCS PPO",
+            "category": [
+              "medical"
+            ]
+          },
+          "insurance_provider": {
+            "uid": "multiplan",
+            "name": "Multiplan"
+          }
+        },
+        {
+          "insurance_plan": {
+            "uid": "providencehealthsystem-providencepreferredppo",
+            "name": "Providence Preferred PPO",
+            "category": [
+              "medical"
+            ]
+          },
+          "insurance_provider": {
+            "uid": "providencehealthsystem",
+            "name": "Providence Health System"
+          }
+        },
+        {
+          "insurance_plan": {
+            "uid": "providencehealthsystem-providencepersonaloption",
+            "name": "Providence Personal Option",
+            "category": [
+              "medical"
+            ]
+          },
+          "insurance_provider": {
+            "uid": "providencehealthsystem",
+            "name": "Providence Health System"
+          }
+        },
+        {
+          "insurance_plan": {
+            "uid": "aetna-aetnamanagedchoiceposopenaccess",
+            "name": "Aetna Managed Choice POS Open Access",
+            "category": [
+              "medical"
+            ]
+          },
+          "insurance_provider": {
+            "uid": "aetna",
+            "name": "Aetna"
+          }
+        },
+        {
+          "insurance_plan": {
+            "uid": "aetna-aetnachoiceposii",
+            "name": "Aetna Choice POS II",
+            "category": [
+              "medical"
+            ]
+          },
+          "insurance_provider": {
+            "uid": "aetna",
+            "name": "Aetna"
+          }
+        },
+        {
+          "insurance_plan": {
+            "uid": "firstchoice-firstchoice",
+            "name": "First Choice",
+            "category": [
+              "medical"
+            ]
+          },
+          "insurance_provider": {
+            "uid": "firstchoice",
+            "name": "First Choice"
+          }
+        },
+        {
+          "insurance_plan": {
+            "uid": "multiplan-multiplanppo",
+            "name": "Multiplan PPO",
+            "category": [
+              "medical"
+            ]
+          },
+          "insurance_provider": {
+            "uid": "multiplan",
+            "name": "Multiplan"
+          }
+        },
+        {
+          "insurance_plan": {
+            "uid": "multiplan-phcsppokaiser",
+            "name": "PHCS PPO - Kaiser",
+            "category": [
+              "medical"
+            ]
+          },
+          "insurance_provider": {
+            "uid": "multiplan",
+            "name": "Multiplan"
+          }
+        },
+        {
+          "insurance_plan": {
+            "uid": "aetna-aetnasignatureadministratorsppo",
+            "name": "Aetna Signature Administrators PPO",
+            "category": [
+              "medical"
+            ]
+          },
+          "insurance_provider": {
+            "uid": "aetna",
+            "name": "Aetna"
+          }
+        },
+        {
+          "insurance_plan": {
+            "uid": "cigna-vision",
+            "name": "Vision",
+            "category": [
+              "vision"
+            ]
+          },
+          "insurance_provider": {
+            "uid": "cigna",
+            "name": "Cigna"
+          }
+        },
+        {
+          "insurance_plan": {
+            "uid": "vsp-vsp",
+            "name": "VSP",
+            "category": [
+              "vision"
+            ]
+          },
+          "insurance_provider": {
+            "uid": "vsp",
+            "name": "VSP"
+          }
+        },
+        {
+          "insurance_plan": {
+            "uid": "healthnet-healthnetcommunitycarenetworkhmohix",
+            "name": "Health Net CommunityCare Network - HMO  HIX",
+            "category": [
+              "medical"
+            ]
+          },
+          "insurance_provider": {
+            "uid": "healthnet",
+            "name": "HealthNet"
+          }
+        },
+        {
+          "insurance_plan": {
+            "uid": "ibcamerihealth-amerihealthregionalprefntwkepoposppohix",
+            "name": "AmeriHealth Regional Pref Network - EPO POS PPO HIX",
+            "category": [
+              "medical"
+            ]
+          },
+          "insurance_provider": {
+            "uid": "ibcamerihealth",
+            "name": "IBC  Amerihealth"
+          }
+        },
+        {
+          "insurance_plan": {
+            "uid": "ibcamerihealth-amerihealthregionalprefntwkhmohmoposhix",
+            "name": "AmeriHealth Regional Pref Network - HMO HMO POS HIX",
+            "category": [
+              "medical"
+            ]
+          },
+          "insurance_provider": {
+            "uid": "ibcamerihealth",
+            "name": "IBC  Amerihealth"
+          }
+        },
+        {
+          "insurance_plan": {
+            "uid": "premerabcbs-premeraheritagesignaturehix",
+            "name": "Premera Heritage Signature - HIX",
+            "category": [
+              "medical"
+            ]
+          },
+          "insurance_provider": {
+            "uid": "premerabcbs",
+            "name": "Premera Blue Cross Blue Shield"
+          }
+        },
+        {
+          "insurance_plan": {
+            "uid": "premerabcbs-lifewiseconnecthix",
+            "name": "LifeWise Connect - HIX",
+            "category": [
+              "medical"
+            ]
+          },
+          "insurance_provider": {
+            "uid": "premerabcbs",
+            "name": "Premera Blue Cross Blue Shield"
+          }
+        },
+        {
+          "insurance_plan": {
+            "uid": "medicare-medicare",
+            "name": "Medicare",
+            "category": [
+              "medical"
+            ]
+          },
+          "insurance_provider": {
+            "uid": "medicare",
+            "name": "Medicare"
+          }
+        },
+        {
+          "insurance_plan": {
+            "uid": "medicaid-medicaid",
+            "name": "Medicaid",
+            "category": [
+              "medical"
+            ]
+          },
+          "insurance_provider": {
+            "uid": "medicaid",
+            "name": "Medicaid"
+          }
+        },
+        {
+          "insurance_plan": {
+            "uid": "aetna-aetnamdbronzesilverandgoldhmo",
+            "name": "MD Bronze Silver  Gold - HMO",
+            "category": [
+              "medical"
+            ]
+          },
+          "insurance_provider": {
+            "uid": "aetna",
+            "name": "Aetna"
+          }
+        },
+        {
+          "insurance_plan": {
+            "uid": "healthnet-bluegoldhmo",
+            "name": "Blue  Gold - HMO",
+            "category": [
+              "medical"
+            ]
+          },
+          "insurance_provider": {
+            "uid": "healthnet",
+            "name": "HealthNet"
+          }
+        },
+        {
+          "insurance_plan": {
+            "uid": "healthnet-hmoexcelcaresilvernetwork",
+            "name": "HMO - ExcelCare  Silver Network",
+            "category": [
+              "medical"
+            ]
+          },
+          "insurance_provider": {
+            "uid": "healthnet",
+            "name": "HealthNet"
+          }
+        },
+        {
+          "insurance_plan": {
+            "uid": "healthnet-hmoexcelcaresilvernetworkmedicarecob",
+            "name": "HMO - ExcelCare  Silver Network Medicare COB",
+            "category": [
+              "medical"
+            ]
+          },
+          "insurance_provider": {
+            "uid": "healthnet",
+            "name": "HealthNet"
+          }
+        },
+        {
+          "insurance_plan": {
+            "uid": "pacificsourcehealthplans-pacificsourcepreferredpsn",
+            "name": "PacificSource Preferred PSN",
+            "category": [
+              "medical"
+            ]
+          },
+          "insurance_provider": {
+            "uid": "pacificsourcehealthplans",
+            "name": "PacificSource Health Plans"
+          }
+        },
+        {
+          "insurance_plan": {
+            "uid": "regencebluecrossblueshieldoforegon-regenceorpreferredprovidernetwork",
+            "name": "Regence OR Preferred Provider Network",
+            "category": [
+              "medical"
+            ]
+          },
+          "insurance_provider": {
+            "uid": "regencebluecrossblueshieldoforegon",
+            "name": "Regence Blue Cross Blue Shield of Oregon"
+          }
+        },
+        {
+          "insurance_plan": {
+            "uid": "odshealthplan-odsnetwork",
+            "name": "ODS Network",
+            "category": [
+              "medical"
+            ]
+          },
+          "insurance_provider": {
+            "uid": "odshealthplan",
+            "name": "ODS Health Plan"
+          }
+        },
+        {
+          "insurance_plan": {
+            "uid": "premerabluecross-premeraheritageheritageplus1",
+            "name": "Premera Heritage  Heritage Plus 1",
+            "category": [
+              "medical"
+            ]
+          },
+          "insurance_provider": {
+            "uid": "premerabluecross",
+            "name": "Premera Blue Cross"
+          }
+        },
+        {
+          "insurance_plan": {
+            "uid": "premerabluecross-premeraheritagesignature",
+            "name": "Premera Heritage Signature",
+            "category": [
+              "medical"
+            ]
+          },
+          "insurance_provider": {
+            "uid": "premerabluecross",
+            "name": "Premera Blue Cross"
+          }
+        },
+        {
+          "insurance_plan": {
+            "uid": "gwhcigna-greatwestppo",
+            "name": "Great West PPO",
+            "category": [
+              "medical"
+            ]
+          },
+          "insurance_provider": {
+            "uid": "gwhcigna",
+            "name": "GWH-Cigna"
+          }
+        },
+        {
+          "insurance_plan": {
+            "uid": "unitedhealthcare-uhcchoicepluspos",
+            "name": "UHC Choice Plus POS",
+            "category": [
+              "medical"
+            ]
+          },
+          "insurance_provider": {
+            "uid": "unitedhealthcare",
+            "name": "United Healthcare"
+          }
+        },
+        {
+          "insurance_plan": {
+            "uid": "unitedhealthcare-uhcnavigatehmo",
+            "name": "UHC Navigate HMO",
+            "category": [
+              "medical"
+            ]
+          },
+          "insurance_provider": {
+            "uid": "unitedhealthcare",
+            "name": "United Healthcare"
+          }
+        },
+        {
+          "insurance_plan": {
+            "uid": "unitedhealthcare-uhcnavigatepos",
+            "name": "UHC Navigate POS",
+            "category": [
+              "medical"
+            ]
+          },
+          "insurance_provider": {
+            "uid": "unitedhealthcare",
+            "name": "United Healthcare"
+          }
+        },
+        {
+          "insurance_plan": {
+            "uid": "unitedhealthcare-uhcoptionsppo",
+            "name": "UHC Options PPO",
+            "category": [
+              "medical"
+            ]
+          },
+          "insurance_provider": {
+            "uid": "unitedhealthcare",
+            "name": "United Healthcare"
+          }
+        },
+        {
+          "insurance_plan": {
+            "uid": "firsthealthcoventryhealthcare-firsthealthppo",
+            "name": "First Health PPO",
+            "category": [
+              "medical"
+            ]
+          },
+          "insurance_provider": {
+            "uid": "firsthealthcoventryhealthcare",
+            "name": "First Health Coventry Healthcare"
+          }
+        },
+        {
+          "insurance_plan": {
+            "uid": "healthnet-healthnetorcommunitycare",
+            "name": "Health Net OR CommunityCare",
+            "category": [
+              "medical"
+            ]
+          },
+          "insurance_provider": {
+            "uid": "healthnet",
+            "name": "Health Net"
+          }
+        },
+        {
+          "insurance_plan": {
+            "uid": "lifewisehealthplanoforegon-lifewisehealthplanoforegon",
+            "name": "Lifewise Health Plan of Oregon",
+            "category": [
+              "medical"
+            ]
+          },
+          "insurance_provider": {
+            "uid": "lifewisehealthplanoforegon",
+            "name": "Lifewise health Plan of Oregon"
+          }
+        },
+        {
+          "insurance_plan": {
+            "uid": "premerabluecross-premeralifewiseconnect",
+            "name": "Premera LifeWise Connect",
+            "category": [
+              "medical"
+            ]
+          },
+          "insurance_provider": {
+            "uid": "premerabluecross",
+            "name": "Premera Blue Cross"
+          }
+        }
+      ],
+      "specialties": [
+        {
+          "uid": "otology-neurotologist",
+          "name": "Otology & Neurotology",
+          "description": "Specializes in ear and hearing problems.",
+          "category": "medical",
+          "actor": "Otology Neurotologist",
+          "actors": "Otology Neurotologists"
+        },
+        {
+          "uid": "ear-nose-throat-doctor",
+          "name": "Otolaryngology",
+          "description": "Specializes in ear, nose and throat problems.",
+          "category": "medical",
+          "actor": "Ear, Nose and Throat Doctor",
+          "actors": "Ear, Nose and Throat Doctors"
+        },
+        {
+          "uid": "otolaryngic-allergist",
+          "name": "Otolaryngic Allergy",
+          "description": "Specializes in ear, nose and throat allergies.",
+          "category": "medical",
+          "actor": "Otolaryngic Allergist",
+          "actors": "Otolaryngic Allergists"
+        }
+      ],
+      "licenses": [
+        {
+          "number": "MD07645",
+          "state": "OR"
+        }
+      ],
+      "uid": "937f7cc8dba4314f46af15b425a9f161",
+      "npi": "1992843098"
+    },
+    {
+      "practices": [
+        {
+          "location_slug": "or-portland",
+          "within_search_area": true,
+          "distance": 1.8623578961060174,
+          "lat": 45.499437,
+          "lon": -122.689344,
+          "uid": "019aab1dc073542f939cedc952e259a3",
+          "name": "Nathan Sautter, MD",
+          "accepts_new_patients": true,
+          "insurance_uids": [
+            "healthnet-healthnetorppo",
+            "firstchoice-firstchoice",
+            "aetna-aetnachoiceposii",
+            "aetna-aetnamanagedchoiceposopenaccess",
+            "bcbsbluecard-bcbsbluecardppo",
+            "providencehealthsystem-providencepersonaloption",
+            "multiplan-multiplanppo",
+            "cigna-cignappo",
+            "multiplan-phcsppo",
+            "providencehealthsystem-providencepreferredppo",
+            "cigna-cignaopenaccessplus",
+            "pacificsourcehealthplans-pacificsourcepreferredpsn",
+            "regencebluecrossblueshieldoforegon-regenceorpreferredprovidernetwork",
+            "odshealthplan-odsnetwork",
+            "premerabluecross-premeraheritageheritageplus1",
+            "premerabluecross-premeraheritagesignature",
+            "gwhcigna-greatwestppo",
+            "unitedhealthcare-uhcchoicepluspos",
+            "unitedhealthcare-uhcoptionsppo"
+          ],
+          "visit_address": {
+            "city": "Portland",
+            "lat": 45.499437,
+            "lon": -122.689344,
+            "state": "OR",
+            "state_long": "Oregon",
+            "street": "3181 SW Sam Jackson Park Rd",
+            "zip": "97239"
+          },
+          "office_hours": [],
+          "phones": [
+            {
+              "number": "5034947134",
+              "type": "landline"
+            }
+          ],
+          "languages": [
+            {
+              "name": "English",
+              "code": "en"
+            }
+          ]
+        },
+        {
+          "location_slug": "or-portland",
+          "within_search_area": true,
+          "distance": 1.7110784975739737,
+          "lat": 45.49892,
+          "lon": -122.67128,
+          "uid": "a691c65386cc4abfa3bd7ec2fc9673f2",
+          "name": "Nathan Sautter, MD",
+          "accepts_new_patients": true,
+          "insurance_uids": [
+            "multiplan-phcsppo",
+            "providencehealthsystem-providencepersonaloption",
+            "providencehealthsystem-providencepreferredppo",
+            "multiplan-multiplanppo",
+            "firstchoice-firstchoice",
+            "aetna-aetnachoiceposii",
+            "aetna-aetnamanagedchoiceposopenaccess",
+            "healthnet-healthnetorppo",
+            "pacificsourcehealthplans-pacificsourcepreferredpsn",
+            "odshealthplan-odsnetwork",
+            "unitedhealthcare-uhcchoicepluspos",
+            "unitedhealthcare-uhcoptionsppo"
+          ],
+          "visit_address": {
+            "city": "Portland",
+            "lat": 45.49892,
+            "lon": -122.67128,
+            "state": "OR",
+            "state_long": "Oregon",
+            "street": "3303 SW Bond Ave",
+            "street2": "Ste 5",
+            "zip": "97239"
+          },
+          "office_hours": [],
+          "phones": [
+            {
+              "number": "5034946687",
+              "type": "landline"
+            }
+          ],
+          "languages": [
+            {
+              "name": "English",
+              "code": "en"
+            }
+          ]
+        },
+        {
+          "location_slug": "or-portland",
+          "within_search_area": true,
+          "distance": 1.8623578961060174,
+          "lat": 45.499437,
+          "lon": -122.689344,
+          "uid": "f79eddcf0d774cea8adbad1dc95017d2",
+          "name": "Nathan Sautter, MD",
+          "accepts_new_patients": true,
+          "insurance_uids": [
+            "healthnet-healthnetorppo",
+            "firstchoice-firstchoice",
+            "aetna-aetnachoiceposii",
+            "aetna-aetnamanagedchoiceposopenaccess",
+            "bcbsbluecard-bcbsbluecardppo",
+            "providencehealthsystem-providencepersonaloption",
+            "multiplan-multiplanppo",
+            "cigna-cignappo",
+            "multiplan-phcsppo",
+            "providencehealthsystem-providencepreferredppo",
+            "cigna-cignaopenaccessplus",
+            "pacificsourcehealthplans-pacificsourcepreferredpsn",
+            "regencebluecrossblueshieldoforegon-regenceorpreferredprovidernetwork",
+            "odshealthplan-odsnetwork",
+            "premerabluecross-premeraheritageheritageplus1",
+            "premerabluecross-premeraheritagesignature",
+            "gwhcigna-greatwestppo",
+            "unitedhealthcare-uhcchoicepluspos",
+            "unitedhealthcare-uhcoptionsppo"
+          ],
+          "visit_address": {
+            "city": "Portland",
+            "lat": 45.499437,
+            "lon": -122.689344,
+            "state": "OR",
+            "state_long": "Oregon",
+            "street": "3181 SW Sam Jackson Park Rd",
+            "zip": "97239"
+          },
+          "office_hours": [],
+          "phones": [
+            {
+              "number": "5034947134",
+              "type": "landline"
+            }
+          ],
+          "languages": [
+            {
+              "name": "English",
+              "code": "en"
+            }
+          ]
+        },
+        {
+          "location_slug": "or-portland",
+          "within_search_area": true,
+          "distance": 1.8623578961060174,
+          "lat": 45.499437,
+          "lon": -122.689344,
+          "uid": "5726cc77a85674da13f286b881172085",
+          "name": "Nathan Sautter, MD",
+          "accepts_new_patients": true,
+          "insurance_uids": [
+            "healthnet-healthnetorppo",
+            "firstchoice-firstchoice",
+            "aetna-aetnachoiceposii",
+            "aetna-aetnamanagedchoiceposopenaccess",
+            "bcbsbluecard-bcbsbluecardppo",
+            "providencehealthsystem-providencepersonaloption",
+            "multiplan-multiplanppo",
+            "cigna-cignappo",
+            "multiplan-phcsppo",
+            "providencehealthsystem-providencepreferredppo",
+            "cigna-cignaopenaccessplus",
+            "pacificsourcehealthplans-pacificsourcepreferredpsn",
+            "regencebluecrossblueshieldoforegon-regenceorpreferredprovidernetwork",
+            "odshealthplan-odsnetwork",
+            "premerabluecross-premeraheritageheritageplus1",
+            "premerabluecross-premeraheritagesignature",
+            "gwhcigna-greatwestppo",
+            "unitedhealthcare-uhcchoicepluspos",
+            "unitedhealthcare-uhcoptionsppo"
+          ],
+          "visit_address": {
+            "city": "Portland",
+            "lat": 45.499437,
+            "lon": -122.689344,
+            "state": "OR",
+            "state_long": "Oregon",
+            "street": "3181 SW Sam Jackson Park Rd",
+            "zip": "97239"
+          },
+          "office_hours": [],
+          "phones": [
+            {
+              "number": "5034947134",
+              "type": "landline"
+            }
+          ],
+          "languages": [
+            {
+              "name": "English",
+              "code": "en"
+            }
+          ]
+        }
+      ],
+      "educations": [],
+      "profile": {
+        "first_name": "Nathan",
+        "middle_name": "Benjamin",
+        "last_name": "Sautter",
+        "slug": "nathan-sautter-md",
+        "title": "MD",
+        "image_url": "https://asset2.betterdoctor.com/assets/general_doctor_male.png",
+        "gender": "male",
+        "languages": [
+          {
+            "name": "English",
+            "code": "en"
+          }
+        ],
+        "bio": "Dr. Nathan Sautter, MD is one of the country's most highly rated doctors. His specialties include otolaryngology and he currently practices medicine at Portland, Oregon.\n\nDr. Sautter is rated in the top 20% of doctors in the United States, based on his experience, network and credentials.\n\nDr. Sautter has been found to hold one or more active medical licenses, and successfully passed a malpractice history screening."
+      },
+      "ratings": [
+        {
+          "active": true,
+          "provider": "betterdoctor",
+          "provider_uid": "4699bd72d3e6a83ad9c602b2d6c2822d",
+          "rating": 4,
+          "review_count": 0,
+          "image_url_small": "https://asset2.betterdoctor.com/assets/consumer/stars/stars-small-4.0.png",
+          "image_url_small_2x": "https://asset2.betterdoctor.com/assets/consumer/stars/stars-small-4.0@2x.png",
+          "image_url_large": "https://asset2.betterdoctor.com/assets/consumer/stars/stars-large-4.0.png",
+          "image_url_large_2x": "https://asset2.betterdoctor.com/assets/consumer/stars/stars-large-4.0@2x.png"
+        }
+      ],
+      "insurances": [
+        {
+          "insurance_plan": {
+            "uid": "healthnet-healthnetorppo",
+            "name": "Health Net OR PPO",
+            "category": [
+              "medical"
+            ]
+          },
+          "insurance_provider": {
+            "uid": "healthnet",
+            "name": "Health Net"
+          }
+        },
+        {
+          "insurance_plan": {
+            "uid": "firstchoice-firstchoice",
+            "name": "First Choice",
+            "category": [
+              "medical"
+            ]
+          },
+          "insurance_provider": {
+            "uid": "firstchoice",
+            "name": "First Choice"
+          }
+        },
+        {
+          "insurance_plan": {
+            "uid": "aetna-aetnachoiceposii",
+            "name": "Aetna Choice POS II",
+            "category": [
+              "medical"
+            ]
+          },
+          "insurance_provider": {
+            "uid": "aetna",
+            "name": "Aetna"
+          }
+        },
+        {
+          "insurance_plan": {
+            "uid": "aetna-aetnamanagedchoiceposopenaccess",
+            "name": "Aetna Managed Choice POS Open Access",
+            "category": [
+              "medical"
+            ]
+          },
+          "insurance_provider": {
+            "uid": "aetna",
+            "name": "Aetna"
+          }
+        },
+        {
+          "insurance_plan": {
+            "uid": "bcbsbluecard-bcbsbluecardppo",
+            "name": "BCBS Blue Card PPO",
+            "category": [
+              "medical"
+            ]
+          },
+          "insurance_provider": {
+            "uid": "bcbsbluecard",
+            "name": "BCBS Blue Card"
+          }
+        },
+        {
+          "insurance_plan": {
+            "uid": "providencehealthsystem-providencepersonaloption",
+            "name": "Providence Personal Option",
+            "category": [
+              "medical"
+            ]
+          },
+          "insurance_provider": {
+            "uid": "providencehealthsystem",
+            "name": "Providence Health System"
+          }
+        },
+        {
+          "insurance_plan": {
+            "uid": "multiplan-multiplanppo",
+            "name": "Multiplan PPO",
+            "category": [
+              "medical"
+            ]
+          },
+          "insurance_provider": {
+            "uid": "multiplan",
+            "name": "Multiplan"
+          }
+        },
+        {
+          "insurance_plan": {
+            "uid": "cigna-cignappo",
+            "name": "CIGNA PPO",
+            "category": [
+              "medical"
+            ]
+          },
+          "insurance_provider": {
+            "uid": "cigna",
+            "name": "Cigna"
+          }
+        },
+        {
+          "insurance_plan": {
+            "uid": "multiplan-phcsppo",
+            "name": "PHCS PPO",
+            "category": [
+              "medical"
+            ]
+          },
+          "insurance_provider": {
+            "uid": "multiplan",
+            "name": "Multiplan"
+          }
+        },
+        {
+          "insurance_plan": {
+            "uid": "providencehealthsystem-providencepreferredppo",
+            "name": "Providence Preferred PPO",
+            "category": [
+              "medical"
+            ]
+          },
+          "insurance_provider": {
+            "uid": "providencehealthsystem",
+            "name": "Providence Health System"
+          }
+        },
+        {
+          "insurance_plan": {
+            "uid": "cigna-cignaopenaccessplus",
+            "name": "CIGNA Open Access Plus",
+            "category": [
+              "medical"
+            ]
+          },
+          "insurance_provider": {
+            "uid": "cigna",
+            "name": "Cigna"
+          }
+        },
+        {
+          "insurance_plan": {
+            "uid": "pacificsourcehealthplans-pacificsourcepreferredpsn",
+            "name": "PacificSource Preferred PSN",
+            "category": [
+              "medical"
+            ]
+          },
+          "insurance_provider": {
+            "uid": "pacificsourcehealthplans",
+            "name": "PacificSource Health Plans"
+          }
+        },
+        {
+          "insurance_plan": {
+            "uid": "regencebluecrossblueshieldoforegon-regenceorpreferredprovidernetwork",
+            "name": "Regence OR Preferred Provider Network",
+            "category": [
+              "medical"
+            ]
+          },
+          "insurance_provider": {
+            "uid": "regencebluecrossblueshieldoforegon",
+            "name": "Regence Blue Cross Blue Shield of Oregon"
+          }
+        },
+        {
+          "insurance_plan": {
+            "uid": "odshealthplan-odsnetwork",
+            "name": "ODS Network",
+            "category": [
+              "medical"
+            ]
+          },
+          "insurance_provider": {
+            "uid": "odshealthplan",
+            "name": "ODS Health Plan"
+          }
+        },
+        {
+          "insurance_plan": {
+            "uid": "premerabluecross-premeraheritageheritageplus1",
+            "name": "Premera Heritage  Heritage Plus 1",
+            "category": [
+              "medical"
+            ]
+          },
+          "insurance_provider": {
+            "uid": "premerabluecross",
+            "name": "Premera Blue Cross"
+          }
+        },
+        {
+          "insurance_plan": {
+            "uid": "premerabluecross-premeraheritagesignature",
+            "name": "Premera Heritage Signature",
+            "category": [
+              "medical"
+            ]
+          },
+          "insurance_provider": {
+            "uid": "premerabluecross",
+            "name": "Premera Blue Cross"
+          }
+        },
+        {
+          "insurance_plan": {
+            "uid": "gwhcigna-greatwestppo",
+            "name": "Great West PPO",
+            "category": [
+              "medical"
+            ]
+          },
+          "insurance_provider": {
+            "uid": "gwhcigna",
+            "name": "GWH-Cigna"
+          }
+        },
+        {
+          "insurance_plan": {
+            "uid": "unitedhealthcare-uhcchoicepluspos",
+            "name": "UHC Choice Plus POS",
+            "category": [
+              "medical"
+            ]
+          },
+          "insurance_provider": {
+            "uid": "unitedhealthcare",
+            "name": "United Healthcare"
+          }
+        },
+        {
+          "insurance_plan": {
+            "uid": "unitedhealthcare-uhcoptionsppo",
+            "name": "UHC Options PPO",
+            "category": [
+              "medical"
+            ]
+          },
+          "insurance_provider": {
+            "uid": "unitedhealthcare",
+            "name": "United Healthcare"
+          }
+        }
+      ],
+      "specialties": [
+        {
+          "uid": "ear-nose-throat-doctor",
+          "name": "Otolaryngology",
+          "description": "Specializes in ear, nose and throat problems.",
+          "category": "medical",
+          "actor": "Ear, Nose and Throat Doctor",
+          "actors": "Ear, Nose and Throat Doctors"
+        }
+      ],
+      "claims": [
+        {
+          "hcpcs": "31231",
+          "hcpcs_description": "Nasal endoscopy, diagnostic",
+          "service_cnt": 78,
+          "bene_uniq_cnt": 58,
+          "avg_allowed_amt": 77.698717949,
+          "avg_charge_amt": 351.69346154,
+          "avg_payment_amt": 57.028846154
+        },
+        {
+          "hcpcs": "31237",
+          "hcpcs_description": "Nasal / sinus endoscopy, surgery",
+          "service_cnt": 31,
+          "bene_uniq_cnt": 15,
+          "avg_allowed_amt": 245.29612903,
+          "avg_charge_amt": 871.73516129,
+          "avg_payment_amt": 195.18774194
+        },
+        {
+          "hcpcs": "99204",
+          "hcpcs_description": "Office / outpatient visit, new patient, 45 minutes",
+          "service_cnt": 20,
+          "bene_uniq_cnt": 20,
+          "avg_allowed_amt": 126.04,
+          "avg_charge_amt": 139,
+          "avg_payment_amt": 89.0705
+        }
+      ],
+      "licenses": [
+        {
+          "number": "MD27299",
+          "end_date": "2013-12-31"
+        }
+      ],
+      "uid": "4699bd72d3e6a83ad9c602b2d6c2822d",
+      "npi": "1457472961"
+    },
+    {
+      "practices": [
+        {
+          "location_slug": "or-tualatin",
+          "within_search_area": true,
+          "distance": 10.910125741807702,
+          "lat": 45.379108,
+          "lon": -122.740876,
+          "uid": "63274d6231d7914518774747aa662ef9",
+          "name": "David Huberty, MD",
+          "accepts_new_patients": true,
+          "insurance_uids": [
+            "cigna-cignappo",
+            "uhcwestformerlypacificare-pacificarehmo",
+            "aetna-aetnachoiceposii",
+            "aetna-aetnasignatureadministratorsppo",
+            "healthnet-healthnetorppo",
+            "bcbsbluecard-bcbsbluecardppo",
+            "aetna-aetnamanagedchoiceposopenaccess",
+            "providencehealthsystem-providencepersonaloption",
+            "firstchoice-firstchoice",
+            "providencehealthsystem-providencepreferredppo",
+            "cigna-cignaopenaccessplus",
+            "healthnet-healthnetorcommunitycare",
+            "pacificsourcehealthplans-pacificsourcepreferredpsn",
+            "regencebluecrossblueshieldoforegon-regenceorpreferredprovidernetwork",
+            "lifewisehealthplanoforegon-lifewisehealthplanoforegon",
+            "premerabluecross-premeraheritageheritageplus1",
+            "premerabluecross-premeraheritagesignature",
+            "premerabluecross-premeralifewiseconnect",
+            "gwhcigna-greatwestppo",
+            "unitedhealthcare-uhcchoicepluspos",
+            "unitedhealthcare-uhcnavigatehmo",
+            "unitedhealthcare-uhcnavigatepos",
+            "unitedhealthcare-uhcoptionsppo",
+            "firsthealthcoventryhealthcare-firsthealthppo"
+          ],
+          "visit_address": {
+            "city": "Tualatin",
+            "lat": 45.379108,
+            "lon": -122.740876,
+            "state": "OR",
+            "state_long": "Oregon",
+            "street": "19250 SW 65th Ave",
+            "street2": "Ste 100",
+            "zip": "97062"
+          },
+          "office_hours": [],
+          "phones": [
+            {
+              "number": "5036560836",
+              "type": "landline"
+            }
+          ],
+          "languages": [
+            {
+              "name": "English",
+              "code": "en"
+            }
+          ]
+        },
+        {
+          "location_slug": "or-tualatin",
+          "within_search_area": true,
+          "distance": 10.910125741807702,
+          "lat": 45.379108,
+          "lon": -122.740876,
+          "uid": "e14e06006607281184de98a82dd8e71a",
+          "name": "Oregon Orthopedicssports Medcn",
+          "accepts_new_patients": true,
+          "insurance_uids": [
+            "cigna-cignappo",
+            "uhcwestformerlypacificare-pacificarehmo",
+            "aetna-aetnachoiceposii",
+            "aetna-aetnasignatureadministratorsppo",
+            "healthnet-healthnetorppo",
+            "bcbsbluecard-bcbsbluecardppo",
+            "aetna-aetnamanagedchoiceposopenaccess",
+            "providencehealthsystem-providencepersonaloption",
+            "firstchoice-firstchoice",
+            "providencehealthsystem-providencepreferredppo",
+            "cigna-cignaopenaccessplus",
+            "healthnet-healthnetorcommunitycare",
+            "pacificsourcehealthplans-pacificsourcepreferredpsn",
+            "regencebluecrossblueshieldoforegon-regenceorpreferredprovidernetwork",
+            "lifewisehealthplanoforegon-lifewisehealthplanoforegon",
+            "premerabluecross-premeraheritageheritageplus1",
+            "premerabluecross-premeraheritagesignature",
+            "premerabluecross-premeralifewiseconnect",
+            "gwhcigna-greatwestppo",
+            "unitedhealthcare-uhcchoicepluspos",
+            "unitedhealthcare-uhcnavigatehmo",
+            "unitedhealthcare-uhcnavigatepos",
+            "unitedhealthcare-uhcoptionsppo",
+            "firsthealthcoventryhealthcare-firsthealthppo"
+          ],
+          "visit_address": {
+            "city": "Tualatin",
+            "lat": 45.379108,
+            "lon": -122.740876,
+            "state": "OR",
+            "state_long": "Oregon",
+            "street": "19250 SW 65th Ave",
+            "street2": "Ste 100",
+            "zip": "97062"
+          },
+          "office_hours": [],
+          "phones": [
+            {
+              "number": "5036569464",
+              "type": "fax"
+            },
+            {
+              "number": "5036920366",
+              "type": "landline"
+            }
+          ],
+          "languages": [
+            {
+              "name": "English",
+              "code": "en"
+            }
+          ]
+        }
+      ],
+      "educations": [
+        {
+          "school": "Creighton University School of Medicine",
+          "degree": "MD"
+        },
+        {
+          "school": "University of New Mexico",
+          "degree": "Residency"
+        },
+        {
+          "school": "The San Antonio Orthopedic Group",
+          "degree": "Fellowship"
+        }
+      ],
+      "profile": {
+        "first_name": "David",
+        "middle_name": "P",
+        "last_name": "Huberty",
+        "slug": "david-huberty-md",
+        "title": "MD",
+        "image_url": "https://asset1.betterdoctor.com/images/54d9a4e34214f822060002f3-2_thumbnail.jpg",
+        "gender": "male",
+        "languages": [
+          {
+            "name": "English",
+            "code": "en"
+          }
+        ],
+        "bio": "I was born and raised in the small college town of Pullman, Washington. I was the second of four children to my father, an obstetrician, and my mother, a social worker and Catholic counselor. The best entertainment in town revolved around Washington State University with Cougar athletics the highlight. I was drawn to all sports from a young age. When not at school or sport, I would rarely be found near civilization. My passion for the outdoors (fly fishing, hunting, and backpacking) was unquenchable. I pursued an in state college education, simply unable to stray from my favorite fishing holes.\n\nI was fortunate to find the perfect environment for learning and maturation at Gonzaga University. Sport found its way back into my life, helping to ease the rigors of my education. I \"walked on\" to the university tennis team as a sophomore and continued with the team through my senior season. It was a real challenge to manage the demands of a biochemistry major and a frequently traveling sport. Team tennis was critical for my personal development, as it provided a consistent competitive outlet, the foundation to build great friendships, and the opportunity to build confidence through accomplishment.\n\nI continued my Jesuit education attending medical school at Creighton University in Omaha, Nebraska. During my studies, it became perfectly clear that I was meant to be an orthopedic surgeon. I was captivated by the ingenious design of the human musculoskeletal system. I was drawn to the hands on, intricate, and mechanical nature of the profession. It became my desire to help others in a most basic and fundamental way; to feel better, function better, work better, and play better.\n\nAt the completion of medical school, I was accepted to attend orthopedic residency at the University of New Mexico in Albuquerque. Despite five years of regular one hundred hour work weeks, I had an incredible educational experience, a tribute to the dedication and selfless nature of the renowned team of faculty and supporting residents. As I had found at Creighton, the character of the people around you makes all the difference. Easy access to first class mountain biking, snow skiing, and pristine mountain fly fishing water, was a major bonus for the day off.\n\nWithout question, my greatest blessing occurred in Albuquerque. I met my future wife on the first day of residency. To my amazement, she could cram more fun activity into a few hours off then I. She quickly became my fly fishing, camping, mountain biking, snow ski companion. While a talented ear nose and throat surgery resident herself, she was still humble, selfless and always resourceful. We were married in the final few months of our residency and promptly moved back to her home state of Texas for what I considered the shoulder fellowship of a lifetime.\n\nI began fellowship with Dr. Stephen Burkhart, whose understanding of the shoulder anatomy, biomechanical function, and related injury and dysfunction was revolutionary. His use of the arthroscope to treat the vast majority of shoulder ailments in a minimally invasive and all inclusive approach was light years ahead of United States and world surgery standards. I soaked up every detail possible and will forever be grateful for what I learned from him. When traveling around the globe teaching other surgeons, Dr. Burkhart arranged for me to spend time with national experts in elbow arthroscopy, shoulder replacement and sports medicine. This year in San Antonio was an amazing learning experience, perfectly suited to my career interests. However, the greatest value in this fellowship, was witnessing how Dr. Burkhart treated patients and people in general. While one of the most brilliant and talented surgeons our country has seen, his quiet respectful nature, humility, and compassion always shone the brightest. He was relentless in working to achieve the best for his patients. His insights continue to drive innovation and he would openly share his art with any surgeon interested in learning. He was the perfect mentor, and I have committed myself to practicing by his example."
+      },
+      "ratings": [
+        {
+          "active": true,
+          "provider": "betterdoctor",
+          "provider_uid": "david-huberty-md",
+          "rating": 5,
+          "review_count": 0,
+          "image_url_small": "https://asset2.betterdoctor.com/assets/consumer/stars/stars-small-5.0.png",
+          "image_url_small_2x": "https://asset2.betterdoctor.com/assets/consumer/stars/stars-small-5.0@2x.png",
+          "image_url_large": "https://asset2.betterdoctor.com/assets/consumer/stars/stars-large-5.0.png",
+          "image_url_large_2x": "https://asset2.betterdoctor.com/assets/consumer/stars/stars-large-5.0@2x.png"
+        }
+      ],
+      "insurances": [
+        {
+          "insurance_plan": {
+            "uid": "cigna-cignappo",
+            "name": "CIGNA PPO",
+            "category": [
+              "medical"
+            ]
+          },
+          "insurance_provider": {
+            "uid": "cigna",
+            "name": "Cigna"
+          }
+        },
+        {
+          "insurance_plan": {
+            "uid": "uhcwestformerlypacificare-pacificarehmo",
+            "name": "Pacificare HMO",
+            "category": [
+              "medical"
+            ]
+          },
+          "insurance_provider": {
+            "uid": "uhcwestformerlypacificare",
+            "name": "UHC West Formerly Pacificare"
+          }
+        },
+        {
+          "insurance_plan": {
+            "uid": "aetna-aetnachoiceposii",
+            "name": "Aetna Choice POS II",
+            "category": [
+              "medical"
+            ]
+          },
+          "insurance_provider": {
+            "uid": "aetna",
+            "name": "Aetna"
+          }
+        },
+        {
+          "insurance_plan": {
+            "uid": "aetna-aetnasignatureadministratorsppo",
+            "name": "Aetna Signature Administrators PPO",
+            "category": [
+              "medical"
+            ]
+          },
+          "insurance_provider": {
+            "uid": "aetna",
+            "name": "Aetna"
+          }
+        },
+        {
+          "insurance_plan": {
+            "uid": "healthnet-healthnetorppo",
+            "name": "Health Net OR PPO",
+            "category": [
+              "medical"
+            ]
+          },
+          "insurance_provider": {
+            "uid": "healthnet",
+            "name": "Health Net"
+          }
+        },
+        {
+          "insurance_plan": {
+            "uid": "bcbsbluecard-bcbsbluecardppo",
+            "name": "BCBS Blue Card PPO",
+            "category": [
+              "medical"
+            ]
+          },
+          "insurance_provider": {
+            "uid": "bcbsbluecard",
+            "name": "BCBS Blue Card"
+          }
+        },
+        {
+          "insurance_plan": {
+            "uid": "aetna-aetnamanagedchoiceposopenaccess",
+            "name": "Aetna Managed Choice POS Open Access",
+            "category": [
+              "medical"
+            ]
+          },
+          "insurance_provider": {
+            "uid": "aetna",
+            "name": "Aetna"
+          }
+        },
+        {
+          "insurance_plan": {
+            "uid": "providencehealthsystem-providencepersonaloption",
+            "name": "Providence Personal Option",
+            "category": [
+              "medical"
+            ]
+          },
+          "insurance_provider": {
+            "uid": "providencehealthsystem",
+            "name": "Providence Health System"
+          }
+        },
+        {
+          "insurance_plan": {
+            "uid": "firstchoice-firstchoice",
+            "name": "First Choice",
+            "category": [
+              "medical"
+            ]
+          },
+          "insurance_provider": {
+            "uid": "firstchoice",
+            "name": "First Choice"
+          }
+        },
+        {
+          "insurance_plan": {
+            "uid": "providencehealthsystem-providencepreferredppo",
+            "name": "Providence Preferred PPO",
+            "category": [
+              "medical"
+            ]
+          },
+          "insurance_provider": {
+            "uid": "providencehealthsystem",
+            "name": "Providence Health System"
+          }
+        },
+        {
+          "insurance_plan": {
+            "uid": "cigna-cignaopenaccessplus",
+            "name": "CIGNA Open Access Plus",
+            "category": [
+              "medical"
+            ]
+          },
+          "insurance_provider": {
+            "uid": "cigna",
+            "name": "Cigna"
+          }
+        },
+        {
+          "insurance_plan": {
+            "uid": "healthnet-healthnetorcommunitycare",
+            "name": "Health Net OR CommunityCare",
+            "category": [
+              "medical"
+            ]
+          },
+          "insurance_provider": {
+            "uid": "healthnet",
+            "name": "Health Net"
+          }
+        },
+        {
+          "insurance_plan": {
+            "uid": "pacificsourcehealthplans-pacificsourcepreferredpsn",
+            "name": "PacificSource Preferred PSN",
+            "category": [
+              "medical"
+            ]
+          },
+          "insurance_provider": {
+            "uid": "pacificsourcehealthplans",
+            "name": "PacificSource Health Plans"
+          }
+        },
+        {
+          "insurance_plan": {
+            "uid": "regencebluecrossblueshieldoforegon-regenceorpreferredprovidernetwork",
+            "name": "Regence OR Preferred Provider Network",
+            "category": [
+              "medical"
+            ]
+          },
+          "insurance_provider": {
+            "uid": "regencebluecrossblueshieldoforegon",
+            "name": "Regence Blue Cross Blue Shield of Oregon"
+          }
+        },
+        {
+          "insurance_plan": {
+            "uid": "lifewisehealthplanoforegon-lifewisehealthplanoforegon",
+            "name": "Lifewise Health Plan of Oregon",
+            "category": [
+              "medical"
+            ]
+          },
+          "insurance_provider": {
+            "uid": "lifewisehealthplanoforegon",
+            "name": "Lifewise health Plan of Oregon"
+          }
+        },
+        {
+          "insurance_plan": {
+            "uid": "premerabluecross-premeraheritageheritageplus1",
+            "name": "Premera Heritage  Heritage Plus 1",
+            "category": [
+              "medical"
+            ]
+          },
+          "insurance_provider": {
+            "uid": "premerabluecross",
+            "name": "Premera Blue Cross"
+          }
+        },
+        {
+          "insurance_plan": {
+            "uid": "premerabluecross-premeraheritagesignature",
+            "name": "Premera Heritage Signature",
+            "category": [
+              "medical"
+            ]
+          },
+          "insurance_provider": {
+            "uid": "premerabluecross",
+            "name": "Premera Blue Cross"
+          }
+        },
+        {
+          "insurance_plan": {
+            "uid": "premerabluecross-premeralifewiseconnect",
+            "name": "Premera LifeWise Connect",
+            "category": [
+              "medical"
+            ]
+          },
+          "insurance_provider": {
+            "uid": "premerabluecross",
+            "name": "Premera Blue Cross"
+          }
+        },
+        {
+          "insurance_plan": {
+            "uid": "gwhcigna-greatwestppo",
+            "name": "Great West PPO",
+            "category": [
+              "medical"
+            ]
+          },
+          "insurance_provider": {
+            "uid": "gwhcigna",
+            "name": "GWH-Cigna"
+          }
+        },
+        {
+          "insurance_plan": {
+            "uid": "unitedhealthcare-uhcchoicepluspos",
+            "name": "UHC Choice Plus POS",
+            "category": [
+              "medical"
+            ]
+          },
+          "insurance_provider": {
+            "uid": "unitedhealthcare",
+            "name": "United Healthcare"
+          }
+        },
+        {
+          "insurance_plan": {
+            "uid": "unitedhealthcare-uhcnavigatehmo",
+            "name": "UHC Navigate HMO",
+            "category": [
+              "medical"
+            ]
+          },
+          "insurance_provider": {
+            "uid": "unitedhealthcare",
+            "name": "United Healthcare"
+          }
+        },
+        {
+          "insurance_plan": {
+            "uid": "unitedhealthcare-uhcnavigatepos",
+            "name": "UHC Navigate POS",
+            "category": [
+              "medical"
+            ]
+          },
+          "insurance_provider": {
+            "uid": "unitedhealthcare",
+            "name": "United Healthcare"
+          }
+        },
+        {
+          "insurance_plan": {
+            "uid": "unitedhealthcare-uhcoptionsppo",
+            "name": "UHC Options PPO",
+            "category": [
+              "medical"
+            ]
+          },
+          "insurance_provider": {
+            "uid": "unitedhealthcare",
+            "name": "United Healthcare"
+          }
+        },
+        {
+          "insurance_plan": {
+            "uid": "firsthealthcoventryhealthcare-firsthealthppo",
+            "name": "First Health PPO",
+            "category": [
+              "medical"
+            ]
+          },
+          "insurance_provider": {
+            "uid": "firsthealthcoventryhealthcare",
+            "name": "First Health Coventry Healthcare"
+          }
+        }
+      ],
+      "specialties": [
+        {
+          "uid": "orthopedic-surgeon",
+          "name": "Orthopedic Surgery",
+          "description": "Specializes in surgery and treatment of musculoskeletal problems, including knees and spine.",
+          "category": "medical",
+          "actor": "Orthopedist",
+          "actors": "Orthopedists"
+        }
+      ],
+      "claims": [
+        {
+          "hcpcs": "99213",
+          "hcpcs_description": "Office / outpatient visit, established patient, 15 minutes",
+          "service_cnt": 132,
+          "bene_uniq_cnt": 95,
+          "avg_allowed_amt": 71.27,
+          "avg_charge_amt": 153,
+          "avg_payment_amt": 54.305757576
+        },
+        {
+          "hcpcs": "J1020",
+          "hcpcs_description": "Injection, methylprednisolone acetate, 20 mg",
+          "service_cnt": 126,
+          "bene_uniq_cnt": 41,
+          "avg_allowed_amt": 3.1076190476,
+          "avg_charge_amt": 7.8214285714,
+          "avg_payment_amt": 2.3120634921
+        },
+        {
+          "hcpcs": "73030",
+          "hcpcs_description": "X-ray examination of shoulder",
+          "service_cnt": 82,
+          "bene_uniq_cnt": 67,
+          "avg_allowed_amt": 32.24,
+          "avg_charge_amt": 84,
+          "avg_payment_amt": 22.857317073
+        },
+        {
+          "hcpcs": "99203",
+          "hcpcs_description": "Office / outpatient visit, new patient, 30 minutes",
+          "service_cnt": 81,
+          "bene_uniq_cnt": 81,
+          "avg_allowed_amt": 105.92,
+          "avg_charge_amt": 230,
+          "avg_payment_amt": 75.068395062
+        },
+        {
+          "hcpcs": "99214",
+          "hcpcs_description": "Office / outpatient visit, established patient, 25 minutes",
+          "service_cnt": 75,
+          "bene_uniq_cnt": 62,
+          "avg_allowed_amt": 105.32,
+          "avg_charge_amt": 230,
+          "avg_payment_amt": 72.818533333
+        },
+        {
+          "hcpcs": "20610",
+          "hcpcs_description": "Drain / inject, joint / bursa",
+          "service_cnt": 60,
+          "bene_uniq_cnt": 50,
+          "avg_allowed_amt": 67.17,
+          "avg_charge_amt": 260,
+          "avg_payment_amt": 50.934333333
+        },
+        {
+          "hcpcs": "73130",
+          "hcpcs_description": "X-ray examination of hand",
+          "service_cnt": 17,
+          "bene_uniq_cnt": 15,
+          "avg_allowed_amt": 33.96,
+          "avg_charge_amt": 82,
+          "avg_payment_amt": 25.896470588
+        },
+        {
+          "hcpcs": "J1030",
+          "hcpcs_description": "Injection, methylprednisolone acetate, 40 mg",
+          "service_cnt": 15,
+          "bene_uniq_cnt": 14,
+          "avg_allowed_amt": 3.5666666667,
+          "avg_charge_amt": 15.9,
+          "avg_payment_amt": 2.5586666667
+        },
+        {
+          "hcpcs": "29827",
+          "hcpcs_description": "Arthroscop rotator cuff repr",
+          "service_cnt": 15,
+          "bene_uniq_cnt": 14,
+          "avg_allowed_amt": 1062.91,
+          "avg_charge_amt": 4090.8666667,
+          "avg_payment_amt": 812.70933333
+        },
+        {
+          "hcpcs": "99204",
+          "hcpcs_description": "Office / outpatient visit, new patient, 45 minutes",
+          "service_cnt": 15,
+          "bene_uniq_cnt": 15,
+          "avg_allowed_amt": 161.22,
+          "avg_charge_amt": 354,
+          "avg_payment_amt": 108.144
+        },
+        {
+          "hcpcs": "99233",
+          "hcpcs_description": "Subsequent hospital care",
+          "service_cnt": 14,
+          "bene_uniq_cnt": 13,
+          "avg_allowed_amt": 100.11,
+          "avg_charge_amt": 239,
+          "avg_payment_amt": 75.170714286
+        },
+        {
+          "hcpcs": "29826",
+          "hcpcs_description": "Shoulder arthroscopy / surgery",
+          "service_cnt": 14,
+          "bene_uniq_cnt": 13,
+          "avg_allowed_amt": 173.81,
+          "avg_charge_amt": 2314,
+          "avg_payment_amt": 139.05
+        }
+      ],
+      "licenses": [
+        {
+          "number": "MD26720",
+          "state": "OR",
+          "end_date": "2013-12-31"
+        }
+      ],
+      "uid": "3fd595821131ee9b3bfedb78d6c4ac79",
+      "npi": "1518992296"
+    },
+    {
+      "practices": [
+        {
+          "location_slug": "or-portland",
+          "within_search_area": true,
+          "distance": 5.5130248802111845,
+          "lat": 45.513671,
+          "lon": -122.755642,
+          "uid": "2f59e16eab8dbea61b499424e9689543",
+          "name": "Craig Hertler, MD",
+          "accepts_new_patients": true,
+          "insurance_uids": [
+            "healthnet-healthnetorcommunitycare",
+            "aetna-aetnamanagedchoiceposopenaccess",
+            "uhcwestformerlypacificare-pacificarehmo",
+            "aetna-aetnachoiceposii",
+            "providencehealthsystem-providencepersonaloption",
+            "aetna-aetnasignatureadministratorsppo",
+            "cigna-cignappo",
+            "healthnet-healthnetorppo",
+            "providencehealthsystem-providencepreferredppo",
+            "cigna-cignaopenaccessplus",
+            "pacificsourcehealthplans-pacificsourcepreferredpsn",
+            "premerabluecross-premeralifewiseconnect",
+            "gwhcigna-greatwestppo",
+            "unitedhealthcare-uhcchoicepluspos",
+            "unitedhealthcare-uhcnavigatehmo",
+            "unitedhealthcare-uhcnavigatepos",
+            "unitedhealthcare-uhcoptionsppo"
+          ],
+          "visit_address": {
+            "city": "Portland",
+            "lat": 45.513671,
+            "lon": -122.755642,
+            "state": "OR",
+            "state_long": "Oregon",
+            "street": "9155 SW Barnes Rd",
+            "street2": "Ste 208",
+            "zip": "97225"
+          },
+          "office_hours": [],
+          "phones": [
+            {
+              "number": "5032213101",
+              "type": "landline"
+            }
+          ],
+          "languages": [
+            {
+              "name": "English",
+              "code": "en"
+            }
+          ]
+        }
+      ],
+      "educations": [],
+      "profile": {
+        "first_name": "Craig",
+        "middle_name": "Kevin",
+        "last_name": "Hertler",
+        "slug": "craig-hertler",
+        "title": "MD",
+        "image_url": "https://asset3.betterdoctor.com/images/54b858f74214f87cbc0000ba-2_thumbnail.jpg",
+        "gender": "male",
+        "languages": [
+          {
+            "name": "English",
+            "code": "en"
+          }
+        ],
+        "bio": "Dr. Hertler has been in practice in Portland since 1990. He completed his residency at Oregon Health Sciences University and is Board Certified in Otorlaryngology – Head and Neck Surgery.\n\nWhile his practice includes the full scope of the specialty, he has a special interest in the cure of children with ear, nose and throat problems and the treatment of nasal and sinus conditions. Dr. Hertler is a strong believer in continuing medical education. As a result he is able to provide current and innovative treatment techniques for chronic sinus conditions, snoring and a wide range of other conditions affecting the head and neck area.\n\nOutside of work, Dr. Hertler enjoys spending time with his family that includes two boys. Hiking, camping, mountaineering and biking are his favorite past times.\n\nKnown for his gentle touch and compassionate care, Dr. Hertler strives to deliver the highest quality care to his patients of all ages."
+      },
+      "ratings": [],
+      "insurances": [
+        {
+          "insurance_plan": {
+            "uid": "healthnet-healthnetorcommunitycare",
+            "name": "Health Net OR CommunityCare",
+            "category": [
+              "medical"
+            ]
+          },
+          "insurance_provider": {
+            "uid": "healthnet",
+            "name": "Health Net"
+          }
+        },
+        {
+          "insurance_plan": {
+            "uid": "aetna-aetnamanagedchoiceposopenaccess",
+            "name": "Aetna Managed Choice POS Open Access",
+            "category": [
+              "medical"
+            ]
+          },
+          "insurance_provider": {
+            "uid": "aetna",
+            "name": "Aetna"
+          }
+        },
+        {
+          "insurance_plan": {
+            "uid": "uhcwestformerlypacificare-pacificarehmo",
+            "name": "Pacificare HMO",
+            "category": [
+              "medical"
+            ]
+          },
+          "insurance_provider": {
+            "uid": "uhcwestformerlypacificare",
+            "name": "UHC West Formerly Pacificare"
+          }
+        },
+        {
+          "insurance_plan": {
+            "uid": "aetna-aetnachoiceposii",
+            "name": "Aetna Choice POS II",
+            "category": [
+              "medical"
+            ]
+          },
+          "insurance_provider": {
+            "uid": "aetna",
+            "name": "Aetna"
+          }
+        },
+        {
+          "insurance_plan": {
+            "uid": "providencehealthsystem-providencepersonaloption",
+            "name": "Providence Personal Option",
+            "category": [
+              "medical"
+            ]
+          },
+          "insurance_provider": {
+            "uid": "providencehealthsystem",
+            "name": "Providence Health System"
+          }
+        },
+        {
+          "insurance_plan": {
+            "uid": "aetna-aetnasignatureadministratorsppo",
+            "name": "Aetna Signature Administrators PPO",
+            "category": [
+              "medical"
+            ]
+          },
+          "insurance_provider": {
+            "uid": "aetna",
+            "name": "Aetna"
+          }
+        },
+        {
+          "insurance_plan": {
+            "uid": "cigna-cignappo",
+            "name": "CIGNA PPO",
+            "category": [
+              "medical"
+            ]
+          },
+          "insurance_provider": {
+            "uid": "cigna",
+            "name": "Cigna"
+          }
+        },
+        {
+          "insurance_plan": {
+            "uid": "healthnet-healthnetorppo",
+            "name": "Health Net OR PPO",
+            "category": [
+              "medical"
+            ]
+          },
+          "insurance_provider": {
+            "uid": "healthnet",
+            "name": "Health Net"
+          }
+        },
+        {
+          "insurance_plan": {
+            "uid": "providencehealthsystem-providencepreferredppo",
+            "name": "Providence Preferred PPO",
+            "category": [
+              "medical"
+            ]
+          },
+          "insurance_provider": {
+            "uid": "providencehealthsystem",
+            "name": "Providence Health System"
+          }
+        },
+        {
+          "insurance_plan": {
+            "uid": "cigna-cignaopenaccessplus",
+            "name": "CIGNA Open Access Plus",
+            "category": [
+              "medical"
+            ]
+          },
+          "insurance_provider": {
+            "uid": "cigna",
+            "name": "Cigna"
+          }
+        },
+        {
+          "insurance_plan": {
+            "uid": "pacificsourcehealthplans-pacificsourcepreferredpsn",
+            "name": "PacificSource Preferred PSN",
+            "category": [
+              "medical"
+            ]
+          },
+          "insurance_provider": {
+            "uid": "pacificsourcehealthplans",
+            "name": "PacificSource Health Plans"
+          }
+        },
+        {
+          "insurance_plan": {
+            "uid": "premerabluecross-premeralifewiseconnect",
+            "name": "Premera LifeWise Connect",
+            "category": [
+              "medical"
+            ]
+          },
+          "insurance_provider": {
+            "uid": "premerabluecross",
+            "name": "Premera Blue Cross"
+          }
+        },
+        {
+          "insurance_plan": {
+            "uid": "gwhcigna-greatwestppo",
+            "name": "Great West PPO",
+            "category": [
+              "medical"
+            ]
+          },
+          "insurance_provider": {
+            "uid": "gwhcigna",
+            "name": "GWH-Cigna"
+          }
+        },
+        {
+          "insurance_plan": {
+            "uid": "unitedhealthcare-uhcchoicepluspos",
+            "name": "UHC Choice Plus POS",
+            "category": [
+              "medical"
+            ]
+          },
+          "insurance_provider": {
+            "uid": "unitedhealthcare",
+            "name": "United Healthcare"
+          }
+        },
+        {
+          "insurance_plan": {
+            "uid": "unitedhealthcare-uhcnavigatehmo",
+            "name": "UHC Navigate HMO",
+            "category": [
+              "medical"
+            ]
+          },
+          "insurance_provider": {
+            "uid": "unitedhealthcare",
+            "name": "United Healthcare"
+          }
+        },
+        {
+          "insurance_plan": {
+            "uid": "unitedhealthcare-uhcnavigatepos",
+            "name": "UHC Navigate POS",
+            "category": [
+              "medical"
+            ]
+          },
+          "insurance_provider": {
+            "uid": "unitedhealthcare",
+            "name": "United Healthcare"
+          }
+        },
+        {
+          "insurance_plan": {
+            "uid": "unitedhealthcare-uhcoptionsppo",
+            "name": "UHC Options PPO",
+            "category": [
+              "medical"
+            ]
+          },
+          "insurance_provider": {
+            "uid": "unitedhealthcare",
+            "name": "United Healthcare"
+          }
+        }
+      ],
+      "specialties": [
+        {
+          "uid": "ear-nose-throat-doctor",
+          "name": "Otolaryngology",
+          "description": "Specializes in ear, nose and throat problems.",
+          "category": "medical",
+          "actor": "Ear, Nose and Throat Doctor",
+          "actors": "Ear, Nose and Throat Doctors"
+        }
+      ],
+      "claims": [
+        {
+          "hcpcs": "92557",
+          "hcpcs_description": "Comprehensive hearing test",
+          "service_cnt": 97,
+          "bene_uniq_cnt": 94,
+          "avg_allowed_amt": 39.64,
+          "avg_charge_amt": 85,
+          "avg_payment_amt": 26.29371134
+        },
+        {
+          "hcpcs": "99213",
+          "hcpcs_description": "Office / outpatient visit, established patient, 15 minutes",
+          "service_cnt": 69,
+          "bene_uniq_cnt": 57,
+          "avg_allowed_amt": 71.27,
+          "avg_charge_amt": 181.85507246,
+          "avg_payment_amt": 53.330289855
+        },
+        {
+          "hcpcs": "99203",
+          "hcpcs_description": "Office / outpatient visit, new patient, 30 minutes",
+          "service_cnt": 59,
+          "bene_uniq_cnt": 59,
+          "avg_allowed_amt": 105.92,
+          "avg_charge_amt": 269.93220339,
+          "avg_payment_amt": 70.805254237
+        },
+        {
+          "hcpcs": "69210",
+          "hcpcs_description": "Remove impacted ear wax",
+          "service_cnt": 47,
+          "bene_uniq_cnt": 40,
+          "avg_allowed_amt": 51.298510638,
+          "avg_charge_amt": 91,
+          "avg_payment_amt": 34.860851064
+        },
+        {
+          "hcpcs": "99202",
+          "hcpcs_description": "Office / outpatient visit, new patient, 20 minutes",
+          "service_cnt": 45,
+          "bene_uniq_cnt": 45,
+          "avg_allowed_amt": 73.46,
+          "avg_charge_amt": 186.66666667,
+          "avg_payment_amt": 47.408444444
+        },
+        {
+          "hcpcs": "99214",
+          "hcpcs_description": "Office / outpatient visit, established patient, 25 minutes",
+          "service_cnt": 34,
+          "bene_uniq_cnt": 30,
+          "avg_allowed_amt": 105.32,
+          "avg_charge_amt": 267.32352941,
+          "avg_payment_amt": 72.543529412
+        },
+        {
+          "hcpcs": "31231",
+          "hcpcs_description": "Nasal endoscopy, diagnostic",
+          "service_cnt": 33,
+          "bene_uniq_cnt": 31,
+          "avg_allowed_amt": 202.58,
+          "avg_charge_amt": 338,
+          "avg_payment_amt": 157.18181818
+        },
+        {
+          "hcpcs": "31575",
+          "hcpcs_description": "Diagnostic laryngoscopy",
+          "service_cnt": 25,
+          "bene_uniq_cnt": 22,
+          "avg_allowed_amt": 119.07,
+          "avg_charge_amt": 210,
+          "avg_payment_amt": 89.84
+        },
+        {
+          "hcpcs": "92567",
+          "hcpcs_description": "Tympanometry",
+          "service_cnt": 19,
+          "bene_uniq_cnt": 18,
+          "avg_allowed_amt": 15.23,
+          "avg_charge_amt": 35,
+          "avg_payment_amt": 11.538947368
+        }
+      ],
+      "licenses": [],
+      "uid": "2f5bd9ff71b663d527aeb1363f4e4110",
+      "npi": "1851387146"
+    },
+    {
+      "practices": [
+        {
+          "location_slug": "or-portland",
+          "within_search_area": true,
+          "distance": 8.122524613478973,
+          "lat": 45.51434,
+          "lon": -122.5594,
+          "uid": "6f72658b677a90af2780de3b581e2838",
+          "name": "Mt. Hood Imaging, LLC",
+          "accepts_new_patients": true,
+          "insurance_uids": [
+            "aetna-aetnachoiceposii",
+            "multiplan-multiplanppo",
+            "bcbsbluecard-bcbsbluecardppo",
+            "healthnet-healthnetorcommunitycare",
+            "aetna-aetnamanagedchoiceposopenaccess",
+            "cigna-cignappo",
+            "healthnet-healthnetorppo",
+            "multiplan-phcsppo",
+            "cigna-cignaopenaccessplus",
+            "firstchoice-firstchoice",
+            "pacificsourcehealthplans-pacificsourcepreferredpsn",
+            "regencebluecrossblueshieldoforegon-regenceorpreferredprovidernetwork",
+            "odshealthplan-odsnetwork",
+            "premerabluecross-premeraheritageheritageplus1",
+            "premerabluecross-premeraheritagesignature",
+            "premerabluecross-premeralifewiseconnect",
+            "gwhcigna-greatwestppo",
+            "unitedhealthcare-uhcchoicepluspos",
+            "unitedhealthcare-uhcnavigatehmo",
+            "unitedhealthcare-uhcnavigatepos",
+            "unitedhealthcare-uhcoptionsppo",
+            "firsthealthcoventryhealthcare-firsthealthppo"
+          ],
+          "visit_address": {
+            "city": "Portland",
+            "lat": 45.51434,
+            "lon": -122.5594,
+            "state": "OR",
+            "state_long": "Oregon",
+            "street": "10101 SE Main St",
+            "street2": "Ste 2004",
+            "zip": "97216"
+          },
+          "office_hours": [],
+          "phones": [
+            {
+              "number": "5032557208",
+              "type": "fax"
+            },
+            {
+              "number": "5032573204",
+              "type": "landline"
+            }
+          ],
+          "languages": [
+            {
+              "name": "English",
+              "code": "en"
+            }
+          ]
+        }
+      ],
+      "educations": [],
+      "profile": {
+        "first_name": "John",
+        "middle_name": "William",
+        "last_name": "Topping",
+        "slug": "john-topping-md",
+        "title": "MD",
+        "image_url": "https://asset4.betterdoctor.com/images/544f35094214f81400000053-2_thumbnail.jpg",
+        "gender": "male",
+        "languages": [
+          {
+            "name": "English",
+            "code": "en"
+          }
+        ],
+        "bio": "Dr. Topping grew up in the Seattle area and attended undergraduate and medical school training there before performing his specialty training in Chicago. He has lived in Oregon since finishing his residency and loves the opportunity to combine his professional life with his recreational activities. “One of the things I love about my specialty is being able to treat all age groups and to really listen to their needs so I can individualize their care.”\n\nHe is married and has two children. He enjoys spending time with his family, snow skiing, soccer, fly fishing and playing jazz guitar.\n\nDr. Topping practices the full spectrum of Ear, Nose & Throat medicine and surgery as well as Facial Plastic Surgery."
+      },
+      "ratings": [],
+      "insurances": [
+        {
+          "insurance_plan": {
+            "uid": "aetna-aetnachoiceposii",
+            "name": "Aetna Choice POS II",
+            "category": [
+              "medical"
+            ]
+          },
+          "insurance_provider": {
+            "uid": "aetna",
+            "name": "Aetna"
+          }
+        },
+        {
+          "insurance_plan": {
+            "uid": "multiplan-multiplanppo",
+            "name": "Multiplan PPO",
+            "category": [
+              "medical"
+            ]
+          },
+          "insurance_provider": {
+            "uid": "multiplan",
+            "name": "Multiplan"
+          }
+        },
+        {
+          "insurance_plan": {
+            "uid": "bcbsbluecard-bcbsbluecardppo",
+            "name": "BCBS Blue Card PPO",
+            "category": [
+              "medical"
+            ]
+          },
+          "insurance_provider": {
+            "uid": "bcbsbluecard",
+            "name": "BCBS Blue Card"
+          }
+        },
+        {
+          "insurance_plan": {
+            "uid": "healthnet-healthnetorcommunitycare",
+            "name": "Health Net OR CommunityCare",
+            "category": [
+              "medical"
+            ]
+          },
+          "insurance_provider": {
+            "uid": "healthnet",
+            "name": "Health Net"
+          }
+        },
+        {
+          "insurance_plan": {
+            "uid": "aetna-aetnamanagedchoiceposopenaccess",
+            "name": "Aetna Managed Choice POS Open Access",
+            "category": [
+              "medical"
+            ]
+          },
+          "insurance_provider": {
+            "uid": "aetna",
+            "name": "Aetna"
+          }
+        },
+        {
+          "insurance_plan": {
+            "uid": "cigna-cignappo",
+            "name": "CIGNA PPO",
+            "category": [
+              "medical"
+            ]
+          },
+          "insurance_provider": {
+            "uid": "cigna",
+            "name": "Cigna"
+          }
+        },
+        {
+          "insurance_plan": {
+            "uid": "healthnet-healthnetorppo",
+            "name": "Health Net OR PPO",
+            "category": [
+              "medical"
+            ]
+          },
+          "insurance_provider": {
+            "uid": "healthnet",
+            "name": "Health Net"
+          }
+        },
+        {
+          "insurance_plan": {
+            "uid": "multiplan-phcsppo",
+            "name": "PHCS PPO",
+            "category": [
+              "medical"
+            ]
+          },
+          "insurance_provider": {
+            "uid": "multiplan",
+            "name": "Multiplan"
+          }
+        },
+        {
+          "insurance_plan": {
+            "uid": "cigna-cignaopenaccessplus",
+            "name": "CIGNA Open Access Plus",
+            "category": [
+              "medical"
+            ]
+          },
+          "insurance_provider": {
+            "uid": "cigna",
+            "name": "Cigna"
+          }
+        },
+        {
+          "insurance_plan": {
+            "uid": "firstchoice-firstchoice",
+            "name": "First Choice",
+            "category": [
+              "medical"
+            ]
+          },
+          "insurance_provider": {
+            "uid": "firstchoice",
+            "name": "First Choice"
+          }
+        },
+        {
+          "insurance_plan": {
+            "uid": "pacificsourcehealthplans-pacificsourcepreferredpsn",
+            "name": "PacificSource Preferred PSN",
+            "category": [
+              "medical"
+            ]
+          },
+          "insurance_provider": {
+            "uid": "pacificsourcehealthplans",
+            "name": "PacificSource Health Plans"
+          }
+        },
+        {
+          "insurance_plan": {
+            "uid": "regencebluecrossblueshieldoforegon-regenceorpreferredprovidernetwork",
+            "name": "Regence OR Preferred Provider Network",
+            "category": [
+              "medical"
+            ]
+          },
+          "insurance_provider": {
+            "uid": "regencebluecrossblueshieldoforegon",
+            "name": "Regence Blue Cross Blue Shield of Oregon"
+          }
+        },
+        {
+          "insurance_plan": {
+            "uid": "odshealthplan-odsnetwork",
+            "name": "ODS Network",
+            "category": [
+              "medical"
+            ]
+          },
+          "insurance_provider": {
+            "uid": "odshealthplan",
+            "name": "ODS Health Plan"
+          }
+        },
+        {
+          "insurance_plan": {
+            "uid": "premerabluecross-premeraheritageheritageplus1",
+            "name": "Premera Heritage  Heritage Plus 1",
+            "category": [
+              "medical"
+            ]
+          },
+          "insurance_provider": {
+            "uid": "premerabluecross",
+            "name": "Premera Blue Cross"
+          }
+        },
+        {
+          "insurance_plan": {
+            "uid": "premerabluecross-premeraheritagesignature",
+            "name": "Premera Heritage Signature",
+            "category": [
+              "medical"
+            ]
+          },
+          "insurance_provider": {
+            "uid": "premerabluecross",
+            "name": "Premera Blue Cross"
+          }
+        },
+        {
+          "insurance_plan": {
+            "uid": "premerabluecross-premeralifewiseconnect",
+            "name": "Premera LifeWise Connect",
+            "category": [
+              "medical"
+            ]
+          },
+          "insurance_provider": {
+            "uid": "premerabluecross",
+            "name": "Premera Blue Cross"
+          }
+        },
+        {
+          "insurance_plan": {
+            "uid": "gwhcigna-greatwestppo",
+            "name": "Great West PPO",
+            "category": [
+              "medical"
+            ]
+          },
+          "insurance_provider": {
+            "uid": "gwhcigna",
+            "name": "GWH-Cigna"
+          }
+        },
+        {
+          "insurance_plan": {
+            "uid": "unitedhealthcare-uhcchoicepluspos",
+            "name": "UHC Choice Plus POS",
+            "category": [
+              "medical"
+            ]
+          },
+          "insurance_provider": {
+            "uid": "unitedhealthcare",
+            "name": "United Healthcare"
+          }
+        },
+        {
+          "insurance_plan": {
+            "uid": "unitedhealthcare-uhcnavigatehmo",
+            "name": "UHC Navigate HMO",
+            "category": [
+              "medical"
+            ]
+          },
+          "insurance_provider": {
+            "uid": "unitedhealthcare",
+            "name": "United Healthcare"
+          }
+        },
+        {
+          "insurance_plan": {
+            "uid": "unitedhealthcare-uhcnavigatepos",
+            "name": "UHC Navigate POS",
+            "category": [
+              "medical"
+            ]
+          },
+          "insurance_provider": {
+            "uid": "unitedhealthcare",
+            "name": "United Healthcare"
+          }
+        },
+        {
+          "insurance_plan": {
+            "uid": "unitedhealthcare-uhcoptionsppo",
+            "name": "UHC Options PPO",
+            "category": [
+              "medical"
+            ]
+          },
+          "insurance_provider": {
+            "uid": "unitedhealthcare",
+            "name": "United Healthcare"
+          }
+        },
+        {
+          "insurance_plan": {
+            "uid": "firsthealthcoventryhealthcare-firsthealthppo",
+            "name": "First Health PPO",
+            "category": [
+              "medical"
+            ]
+          },
+          "insurance_provider": {
+            "uid": "firsthealthcoventryhealthcare",
+            "name": "First Health Coventry Healthcare"
+          }
+        }
+      ],
+      "specialties": [
+        {
+          "uid": "ear-nose-throat-doctor",
+          "name": "Otolaryngology",
+          "description": "Specializes in ear, nose and throat problems.",
+          "category": "medical",
+          "actor": "Ear, Nose and Throat Doctor",
+          "actors": "Ear, Nose and Throat Doctors"
+        }
+      ],
+      "claims": [
+        {
+          "hcpcs": "99213",
+          "hcpcs_description": "Office / outpatient visit, established patient, 15 minutes",
+          "service_cnt": 80,
+          "bene_uniq_cnt": 58,
+          "avg_allowed_amt": 71.27,
+          "avg_charge_amt": 198.2,
+          "avg_payment_amt": 57.02
+        },
+        {
+          "hcpcs": "99204",
+          "hcpcs_description": "Office / outpatient visit, new patient, 45 minutes",
+          "service_cnt": 61,
+          "bene_uniq_cnt": 61,
+          "avg_allowed_amt": 161.22,
+          "avg_charge_amt": 457.39344262,
+          "avg_payment_amt": 125.75163934
+        },
+        {
+          "hcpcs": "99214",
+          "hcpcs_description": "Office / outpatient visit, established patient, 25 minutes",
+          "service_cnt": 55,
+          "bene_uniq_cnt": 41,
+          "avg_allowed_amt": 105.32,
+          "avg_charge_amt": 295.4,
+          "avg_payment_amt": 84.26
+        },
+        {
+          "hcpcs": "92557",
+          "hcpcs_description": "Comprehensive hearing test",
+          "service_cnt": 50,
+          "bene_uniq_cnt": 49,
+          "avg_allowed_amt": 39.64,
+          "avg_charge_amt": 120.68,
+          "avg_payment_amt": 31.71
+        },
+        {
+          "hcpcs": "92567",
+          "hcpcs_description": "Tympanometry",
+          "service_cnt": 45,
+          "bene_uniq_cnt": 44,
+          "avg_allowed_amt": 15.23,
+          "avg_charge_amt": 46.733333333,
+          "avg_payment_amt": 12.18
+        },
+        {
+          "hcpcs": "31575",
+          "hcpcs_description": "Diagnostic laryngoscopy",
+          "service_cnt": 39,
+          "bene_uniq_cnt": 32,
+          "avg_allowed_amt": 119.07,
+          "avg_charge_amt": 335.15384615,
+          "avg_payment_amt": 95.26
+        },
+        {
+          "hcpcs": "69210",
+          "hcpcs_description": "Remove impacted ear wax",
+          "service_cnt": 29,
+          "bene_uniq_cnt": 26,
+          "avg_allowed_amt": 48.274827586,
+          "avg_charge_amt": 147.65517241,
+          "avg_payment_amt": 37.633793103
+        },
+        {
+          "hcpcs": "99203",
+          "hcpcs_description": "Office / outpatient visit, new patient, 30 minutes",
+          "service_cnt": 28,
+          "bene_uniq_cnt": 28,
+          "avg_allowed_amt": 105.92,
+          "avg_charge_amt": 294.25,
+          "avg_payment_amt": 83.718928571
+        },
+        {
+          "hcpcs": "G0268",
+          "hcpcs_description": "Removal of impacted cerumen (one or both ears)",
+          "service_cnt": 12,
+          "bene_uniq_cnt": 12,
+          "avg_allowed_amt": 50.916666667,
+          "avg_charge_amt": 150,
+          "avg_payment_amt": 40.73
+        }
+      ],
+      "licenses": [],
+      "uid": "f30327316c111c88764477988eb9464e",
+      "npi": "1063406619"
+    },
+    {
+      "practices": [
+        {
+          "location_slug": "or-clackamas",
+          "within_search_area": true,
+          "distance": 10.192324594340183,
+          "lat": 45.43248,
+          "lon": -122.56031,
+          "uid": "c50bb70334b3fd31bed429e6611032f3",
+          "name": "Daniel Lotspeich, MD",
+          "accepts_new_patients": true,
+          "insurance_uids": [
+            "bridgespan-bridgespanhix",
+            "medicaid-medicaid",
+            "medicare-medicare",
+            "aetna-aetnamdbronzesilverandgoldhmo",
+            "kaiserpermanente-kaiserpermanente"
+          ],
+          "visit_address": {
+            "city": "Clackamas",
+            "lat": 45.43248,
+            "lon": -122.56031,
+            "state": "OR",
+            "state_long": "Oregon",
+            "street": "10100 SE Sunnyside Rd",
+            "zip": "97015"
+          },
+          "office_hours": [],
+          "phones": [
+            {
+              "number": "5035712880",
+              "type": "landline"
+            }
+          ],
+          "languages": [
+            {
+              "name": "English",
+              "code": "en"
+            }
+          ]
+        },
+        {
+          "location_slug": "or-clackamas",
+          "within_search_area": true,
+          "distance": 10.197481581027208,
+          "lat": 45.43152,
+          "lon": -122.56097,
+          "uid": "4137613ee851383e1317ca9c4098f1ac",
+          "name": "Kaiser Permanente Kaiser Sunnyside Med Office",
+          "website": "https://healthy.kaiserpermanente.org/health/care/!ut/p/a1/dY9dT4MwFIZ_Dbc9h3UieAczMy1-zW2KvTFs6wqx0KbUkf17geiFUc_dmzzvk_eAgAJEW55qVfratKUes4jelnz9kGVhipjxObK79P7pgnPEeA4vwEEobXYT_Fp5b68CDNA4Rd4tac4Hs_fGEWuc19J3AYKoD1Ak4eUswWTspO2OxgqEk0fppCMfblCNom4y9X1PlDFKS7I3DbHVoPijVZnOQ_ELHgaKnz_EW3qNbLtYLqIVCxHxC0DKVhNw8xghsjjf5M9JThFn38A_lyLYJj5Tfbo9rpn6BBjlTbQ!/dl5/d5/L2dBISEvZ0FBIS9nQSEh/pw/Z7_FJSOBB1A00BJ40IMANR5JJ0045/act/id=0/p=subLinkPrivate=myoffice/p=idPrivate=9172909/331321365278/=/",
+          "accepts_new_patients": true,
+          "insurance_uids": [
+            "kaiserpermanente-kaiserpermanente"
+          ],
+          "visit_address": {
+            "city": "Clackamas",
+            "lat": 45.43152,
+            "lon": -122.56097,
+            "state": "OR",
+            "state_long": "Oregon",
+            "street": "10180 SE Sunnyside Rd",
+            "zip": "97015"
+          },
+          "office_hours": [],
+          "phones": [
+            {
+              "number": "5036522880",
+              "type": "landline"
+            }
+          ],
+          "languages": [
+            {
+              "name": "English",
+              "code": "en"
+            }
+          ]
+        }
+      ],
+      "educations": [
+        {
+          "school": "Oregon Health Sciences University School of Medicine",
+          "degree": "MD"
+        }
+      ],
+      "profile": {
+        "first_name": "Malina",
+        "middle_name": "Oana",
+        "last_name": "Neville",
+        "slug": "malina-neville-md",
+        "title": "MD",
+        "image_url": "https://asset1.betterdoctor.com/images/556d2dd14214f81f8e00498c-2_thumbnail.jpg",
+        "gender": "female",
+        "languages": [
+          {
+            "name": "English",
+            "code": "en"
+          }
+        ],
+        "bio": "I was born in socialist Romania, where I spent my summers in my grandmother's tiny village, surrounded by vineyards and still lacking paved roads and running water. I decided to pursue medicine after observing my mother's practice in her ENT (ear, nose, throat) office, and then entered one of Romania's top medical universities after completing high-school. I completed four of the required six years of medical school before moving to Portland, Oregon in 1991. This lovely city was a great fit for me so I never left. I worked first as a medical interpreter, then completed my college degree at Portland State University. I decided to continue my medical training at Oregon Health and Science University (OHSU), followed by a residency at Providence Portland Medical Center. I joined Northwest Permanente in 2004. I have three children, all born at Kaiser Permanente, whose ages differ by as much as 13 years, and whose very different interests and personalities always keep me busy."
+      },
+      "ratings": [],
+      "insurances": [
+        {
+          "insurance_plan": {
+            "uid": "bridgespan-bridgespanhix",
+            "name": "Bridgespan - HIX",
+            "category": [
+              "medical"
+            ]
+          },
+          "insurance_provider": {
+            "uid": "bridgespan",
+            "name": "Bridgespan"
+          }
+        },
+        {
+          "insurance_plan": {
+            "uid": "medicaid-medicaid",
+            "name": "Medicaid",
+            "category": [
+              "medical"
+            ]
+          },
+          "insurance_provider": {
+            "uid": "medicaid",
+            "name": "Medicaid"
+          }
+        },
+        {
+          "insurance_plan": {
+            "uid": "medicare-medicare",
+            "name": "Medicare",
+            "category": [
+              "medical"
+            ]
+          },
+          "insurance_provider": {
+            "uid": "medicare",
+            "name": "Medicare"
+          }
+        },
+        {
+          "insurance_plan": {
+            "uid": "aetna-aetnamdbronzesilverandgoldhmo",
+            "name": "MD Bronze Silver  Gold - HMO",
+            "category": [
+              "medical"
+            ]
+          },
+          "insurance_provider": {
+            "uid": "aetna",
+            "name": "Aetna"
+          }
+        },
+        {
+          "insurance_plan": {
+            "uid": "kaiserpermanente-kaiserpermanente",
+            "name": "Kaiser Permanente",
+            "category": [
+              "medical"
+            ]
+          },
+          "insurance_provider": {
+            "uid": "kaiserpermanente",
+            "name": "Kaiser Permanente"
+          }
+        }
+      ],
+      "specialties": [
+        {
+          "uid": "internist",
+          "name": "Internal Medicine",
+          "description": "Specializes in common illnesses and complex medical problems.",
+          "category": "medical",
+          "actor": "Internist",
+          "actors": "Internists"
+        }
+      ],
+      "licenses": [
+        {
+          "number": "OR MD24576",
+          "state": "OR"
+        }
+      ],
+      "uid": "0b9dd3acd2ffcbc4a9dbf6042ca84387",
+      "npi": "1598877656"
+    },
+    {
+      "practices": [
+        {
+          "location_slug": "wa-vancouver",
+          "within_search_area": true,
+          "distance": 11.408692012031276,
+          "lat": 45.61855,
+          "lon": -122.54199,
+          "uid": "2757ddb6040ac47358a8473afc1c404a",
+          "name": "Kaiser Permanente 12607 Se Mill Plain Blvd",
+          "accepts_new_patients": true,
+          "insurance_uids": [],
+          "visit_address": {
+            "city": "Vancouver",
+            "lat": 45.61855,
+            "lon": -122.54199,
+            "state": "WA",
+            "state_long": "Washington",
+            "street": "12607 SE Mill Plain Blvd",
+            "zip": "98684"
+          },
+          "office_hours": [],
+          "phones": [
+            {
+              "number": "3608916271",
+              "type": "landline"
+            }
+          ],
+          "languages": [
+            {
+              "name": "English",
+              "code": "en"
+            }
+          ]
+        }
+      ],
+      "educations": [],
+      "profile": {
+        "first_name": "Bennett",
+        "middle_name": "Everett",
+        "last_name": "Barch",
+        "slug": "bennett-barch-md",
+        "title": "MD",
+        "image_url": "https://asset1.betterdoctor.com/assets/general_doctor_male.png",
+        "gender": "male",
+        "languages": [
+          {
+            "name": "English",
+            "code": "en"
+          }
+        ],
+        "bio": "Dr. Bennett Barch, MD specializes in otolaryngology and otolaryngology/facial plastic surgery, and currently sees patients in Clackamas, Oregon.\n\nDr. Barch is licensed to practice medicine at Oregon.\n\nIn addition to having active medical licenses, Dr. Barch has passed an automated background check which looked at elements including medical license status and malpractice screening (no history found)."
+      },
+      "ratings": [],
+      "insurances": [],
+      "specialties": [
+        {
+          "uid": "ear-nose-throat-doctor",
+          "name": "Otolaryngology",
+          "description": "Specializes in ear, nose and throat problems.",
+          "category": "medical",
+          "actor": "Ear, Nose and Throat Doctor",
+          "actors": "Ear, Nose and Throat Doctors"
+        }
+      ],
+      "licenses": [
+        {
+          "number": "MD 160176",
+          "state": "OR"
+        }
+      ],
+      "uid": "0aa3fed74a9deae2f2920e4694d2912c",
+      "npi": "1386817112"
+    },
+    {
+      "practices": [
+        {
+          "location_slug": "or-portland",
+          "within_search_area": true,
+          "distance": 1.8623578961060174,
+          "lat": 45.499437,
+          "lon": -122.689344,
+          "uid": "79db813201f9e5870830ae7904e29584",
+          "name": "Depatment Of Anesthesiology And Perioperative Medicine",
+          "accepts_new_patients": true,
+          "insurance_uids": [
+            "uhcwestformerlypacificare-pacificarehmo",
+            "firstchoice-firstchoice",
+            "multiplan-phcsppo",
+            "multiplan-phcsppokaiser",
+            "healthnet-healthnetorppo",
+            "multiplan-multiplanppo",
+            "aetna-aetnamanagedchoiceposopenaccess",
+            "cigna-cignappo",
+            "cigna-cignaopenaccessplus",
+            "providencehealthsystem-providencepreferredppo",
+            "bcbsbluecard-bcbsbluecardppo",
+            "providencehealthsystem-providencepersonaloption",
+            "aetna-aetnachoiceposii",
+            "aetna-aetnasignatureadministratorsppo",
+            "healthnet-healthnetindividualfamilyppohix",
+            "anthem-blueviewvision",
+            "premerabcbs-premeraheritagesignaturehix",
+            "premerabcbs-lifewiseconnecthix",
+            "medicaid-medicaid",
+            "medicare-medicare",
+            "aetna-aetnamdbronzesilverandgoldhmo",
+            "healthnet-bluegoldhmo",
+            "healthnet-hmoexcelcaresilvernetwork",
+            "healthnet-hmoexcelcaresilvernetworkmedicarecob",
+            "pacificsourcehealthplans-pacificsourcepreferredpsn",
+            "regencebluecrossblueshieldoforegon-regenceorpreferredprovidernetwork",
+            "odshealthplan-odsnetwork",
+            "premerabluecross-premeraheritageheritageplus1",
+            "premerabluecross-premeraheritagesignature",
+            "gwhcigna-greatwestppo",
+            "unitedhealthcare-uhcchoicepluspos",
+            "unitedhealthcare-uhcnavigatehmo",
+            "unitedhealthcare-uhcnavigatepos",
+            "unitedhealthcare-uhcoptionsppo",
+            "firsthealthcoventryhealthcare-firsthealthppo"
+          ],
+          "visit_address": {
+            "city": "Portland",
+            "lat": 45.499437,
+            "lon": -122.689344,
+            "state": "OR",
+            "state_long": "Oregon",
+            "street": "3181 SW Sam Jackson Park Rd",
+            "zip": "97239"
+          },
+          "office_hours": [],
+          "phones": [
+            {
+              "number": "5034949000",
+              "type": "landline"
+            }
+          ],
+          "languages": [
+            {
+              "name": "English",
+              "code": "en"
+            }
+          ]
+        },
+        {
+          "location_slug": "ga-toccoa",
+          "within_search_area": false,
+          "distance": 2826.098840057249,
+          "lat": 34.575252,
+          "lon": -83.313727,
+          "uid": "e33d59f94131c64b642b228f1b97b764",
+          "name": "Toccoa Clinic Ent Audiology Ctr",
+          "accepts_new_patients": true,
+          "insurance_uids": [],
+          "visit_address": {
+            "city": "Toccoa",
+            "lat": 34.575252,
+            "lon": -83.313727,
+            "state": "GA",
+            "state_long": "Georgia",
+            "street": "274 Big A Rd",
+            "zip": "30577"
+          },
+          "office_hours": [],
+          "phones": [
+            {
+              "number": "7068861115",
+              "type": "fax"
+            },
+            {
+              "number": "7068867412",
+              "type": "landline"
+            }
+          ],
+          "languages": [
+            {
+              "name": "English",
+              "code": "en"
+            }
+          ]
+        }
+      ],
+      "educations": [],
+      "profile": {
+        "first_name": "Shrinath",
+        "middle_name": "Kalaseshwar",
+        "last_name": "Nadig",
+        "slug": "shrinath-nadig-md",
+        "title": "MD",
+        "image_url": "https://asset1.betterdoctor.com/assets/general_doctor_male.png",
+        "gender": "male",
+        "languages": [
+          {
+            "name": "English",
+            "code": "en"
+          }
+        ],
+        "bio": "Dr. Shrinath Nadig, MD specializes in otolaryngology and otology & neurotology, and currently treats patients in Demorest, Georgia, Hartwell, Georgia, Lavonia, Georgia, Toccoa, Georgia, Clayton, Georgia, and Portland, Oregon.\n\nDr. Nadig is licensed to practice medicine at Oregon.\n\nIn addition to having active medical licenses, Dr. Nadig has been found during an automated background check to be clear of any malpractice history and holds one or more active medical licenses."
+      },
+      "ratings": [],
+      "insurances": [
+        {
+          "insurance_plan": {
+            "uid": "uhcwestformerlypacificare-pacificarehmo",
+            "name": "Pacificare HMO",
+            "category": [
+              "medical"
+            ]
+          },
+          "insurance_provider": {
+            "uid": "uhcwestformerlypacificare",
+            "name": "UHC West Formerly Pacificare"
+          }
+        },
+        {
+          "insurance_plan": {
+            "uid": "firstchoice-firstchoice",
+            "name": "First Choice",
+            "category": [
+              "medical"
+            ]
+          },
+          "insurance_provider": {
+            "uid": "firstchoice",
+            "name": "First Choice"
+          }
+        },
+        {
+          "insurance_plan": {
+            "uid": "multiplan-phcsppo",
+            "name": "PHCS PPO",
+            "category": [
+              "medical"
+            ]
+          },
+          "insurance_provider": {
+            "uid": "multiplan",
+            "name": "Multiplan"
+          }
+        },
+        {
+          "insurance_plan": {
+            "uid": "multiplan-phcsppokaiser",
+            "name": "PHCS PPO - Kaiser",
+            "category": [
+              "medical"
+            ]
+          },
+          "insurance_provider": {
+            "uid": "multiplan",
+            "name": "Multiplan"
+          }
+        },
+        {
+          "insurance_plan": {
+            "uid": "healthnet-healthnetorppo",
+            "name": "Health Net OR PPO",
+            "category": [
+              "medical"
+            ]
+          },
+          "insurance_provider": {
+            "uid": "healthnet",
+            "name": "Health Net"
+          }
+        },
+        {
+          "insurance_plan": {
+            "uid": "multiplan-multiplanppo",
+            "name": "Multiplan PPO",
+            "category": [
+              "medical"
+            ]
+          },
+          "insurance_provider": {
+            "uid": "multiplan",
+            "name": "Multiplan"
+          }
+        },
+        {
+          "insurance_plan": {
+            "uid": "aetna-aetnamanagedchoiceposopenaccess",
+            "name": "Aetna Managed Choice POS Open Access",
+            "category": [
+              "medical"
+            ]
+          },
+          "insurance_provider": {
+            "uid": "aetna",
+            "name": "Aetna"
+          }
+        },
+        {
+          "insurance_plan": {
+            "uid": "cigna-cignappo",
+            "name": "CIGNA PPO",
+            "category": [
+              "medical"
+            ]
+          },
+          "insurance_provider": {
+            "uid": "cigna",
+            "name": "Cigna"
+          }
+        },
+        {
+          "insurance_plan": {
+            "uid": "cigna-cignaopenaccessplus",
+            "name": "CIGNA Open Access Plus",
+            "category": [
+              "medical"
+            ]
+          },
+          "insurance_provider": {
+            "uid": "cigna",
+            "name": "Cigna"
+          }
+        },
+        {
+          "insurance_plan": {
+            "uid": "providencehealthsystem-providencepreferredppo",
+            "name": "Providence Preferred PPO",
+            "category": [
+              "medical"
+            ]
+          },
+          "insurance_provider": {
+            "uid": "providencehealthsystem",
+            "name": "Providence Health System"
+          }
+        },
+        {
+          "insurance_plan": {
+            "uid": "bcbsbluecard-bcbsbluecardppo",
+            "name": "BCBS Blue Card PPO",
+            "category": [
+              "medical"
+            ]
+          },
+          "insurance_provider": {
+            "uid": "bcbsbluecard",
+            "name": "BCBS Blue Card"
+          }
+        },
+        {
+          "insurance_plan": {
+            "uid": "providencehealthsystem-providencepersonaloption",
+            "name": "Providence Personal Option",
+            "category": [
+              "medical"
+            ]
+          },
+          "insurance_provider": {
+            "uid": "providencehealthsystem",
+            "name": "Providence Health System"
+          }
+        },
+        {
+          "insurance_plan": {
+            "uid": "aetna-aetnachoiceposii",
+            "name": "Aetna Choice POS II",
+            "category": [
+              "medical"
+            ]
+          },
+          "insurance_provider": {
+            "uid": "aetna",
+            "name": "Aetna"
+          }
+        },
+        {
+          "insurance_plan": {
+            "uid": "aetna-aetnasignatureadministratorsppo",
+            "name": "Aetna Signature Administrators PPO",
+            "category": [
+              "medical"
+            ]
+          },
+          "insurance_provider": {
+            "uid": "aetna",
+            "name": "Aetna"
+          }
+        },
+        {
+          "insurance_plan": {
+            "uid": "healthnet-healthnetindividualfamilyppohix",
+            "name": "Health Net Individual  Family - PPO  HIX",
+            "category": [
+              "medical"
+            ]
+          },
+          "insurance_provider": {
+            "uid": "healthnet",
+            "name": "HealthNet"
+          }
+        },
+        {
+          "insurance_plan": {
+            "uid": "anthem-blueviewvision",
+            "name": "Blue View Vision",
+            "category": [
+              "vision"
+            ]
+          },
+          "insurance_provider": {
+            "uid": "anthem",
+            "name": "Anthem Blue Cross"
+          }
+        },
+        {
+          "insurance_plan": {
+            "uid": "premerabcbs-premeraheritagesignaturehix",
+            "name": "Premera Heritage Signature - HIX",
+            "category": [
+              "medical"
+            ]
+          },
+          "insurance_provider": {
+            "uid": "premerabcbs",
+            "name": "Premera Blue Cross Blue Shield"
+          }
+        },
+        {
+          "insurance_plan": {
+            "uid": "premerabcbs-lifewiseconnecthix",
+            "name": "LifeWise Connect - HIX",
+            "category": [
+              "medical"
+            ]
+          },
+          "insurance_provider": {
+            "uid": "premerabcbs",
+            "name": "Premera Blue Cross Blue Shield"
+          }
+        },
+        {
+          "insurance_plan": {
+            "uid": "medicaid-medicaid",
+            "name": "Medicaid",
+            "category": [
+              "medical"
+            ]
+          },
+          "insurance_provider": {
+            "uid": "medicaid",
+            "name": "Medicaid"
+          }
+        },
+        {
+          "insurance_plan": {
+            "uid": "medicare-medicare",
+            "name": "Medicare",
+            "category": [
+              "medical"
+            ]
+          },
+          "insurance_provider": {
+            "uid": "medicare",
+            "name": "Medicare"
+          }
+        },
+        {
+          "insurance_plan": {
+            "uid": "aetna-aetnamdbronzesilverandgoldhmo",
+            "name": "MD Bronze Silver  Gold - HMO",
+            "category": [
+              "medical"
+            ]
+          },
+          "insurance_provider": {
+            "uid": "aetna",
+            "name": "Aetna"
+          }
+        },
+        {
+          "insurance_plan": {
+            "uid": "healthnet-bluegoldhmo",
+            "name": "Blue  Gold - HMO",
+            "category": [
+              "medical"
+            ]
+          },
+          "insurance_provider": {
+            "uid": "healthnet",
+            "name": "HealthNet"
+          }
+        },
+        {
+          "insurance_plan": {
+            "uid": "healthnet-hmoexcelcaresilvernetwork",
+            "name": "HMO - ExcelCare  Silver Network",
+            "category": [
+              "medical"
+            ]
+          },
+          "insurance_provider": {
+            "uid": "healthnet",
+            "name": "HealthNet"
+          }
+        },
+        {
+          "insurance_plan": {
+            "uid": "healthnet-hmoexcelcaresilvernetworkmedicarecob",
+            "name": "HMO - ExcelCare  Silver Network Medicare COB",
+            "category": [
+              "medical"
+            ]
+          },
+          "insurance_provider": {
+            "uid": "healthnet",
+            "name": "HealthNet"
+          }
+        },
+        {
+          "insurance_plan": {
+            "uid": "pacificsourcehealthplans-pacificsourcepreferredpsn",
+            "name": "PacificSource Preferred PSN",
+            "category": [
+              "medical"
+            ]
+          },
+          "insurance_provider": {
+            "uid": "pacificsourcehealthplans",
+            "name": "PacificSource Health Plans"
+          }
+        },
+        {
+          "insurance_plan": {
+            "uid": "regencebluecrossblueshieldoforegon-regenceorpreferredprovidernetwork",
+            "name": "Regence OR Preferred Provider Network",
+            "category": [
+              "medical"
+            ]
+          },
+          "insurance_provider": {
+            "uid": "regencebluecrossblueshieldoforegon",
+            "name": "Regence Blue Cross Blue Shield of Oregon"
+          }
+        },
+        {
+          "insurance_plan": {
+            "uid": "odshealthplan-odsnetwork",
+            "name": "ODS Network",
+            "category": [
+              "medical"
+            ]
+          },
+          "insurance_provider": {
+            "uid": "odshealthplan",
+            "name": "ODS Health Plan"
+          }
+        },
+        {
+          "insurance_plan": {
+            "uid": "premerabluecross-premeraheritageheritageplus1",
+            "name": "Premera Heritage  Heritage Plus 1",
+            "category": [
+              "medical"
+            ]
+          },
+          "insurance_provider": {
+            "uid": "premerabluecross",
+            "name": "Premera Blue Cross"
+          }
+        },
+        {
+          "insurance_plan": {
+            "uid": "premerabluecross-premeraheritagesignature",
+            "name": "Premera Heritage Signature",
+            "category": [
+              "medical"
+            ]
+          },
+          "insurance_provider": {
+            "uid": "premerabluecross",
+            "name": "Premera Blue Cross"
+          }
+        },
+        {
+          "insurance_plan": {
+            "uid": "gwhcigna-greatwestppo",
+            "name": "Great West PPO",
+            "category": [
+              "medical"
+            ]
+          },
+          "insurance_provider": {
+            "uid": "gwhcigna",
+            "name": "GWH-Cigna"
+          }
+        },
+        {
+          "insurance_plan": {
+            "uid": "unitedhealthcare-uhcchoicepluspos",
+            "name": "UHC Choice Plus POS",
+            "category": [
+              "medical"
+            ]
+          },
+          "insurance_provider": {
+            "uid": "unitedhealthcare",
+            "name": "United Healthcare"
+          }
+        },
+        {
+          "insurance_plan": {
+            "uid": "unitedhealthcare-uhcnavigatehmo",
+            "name": "UHC Navigate HMO",
+            "category": [
+              "medical"
+            ]
+          },
+          "insurance_provider": {
+            "uid": "unitedhealthcare",
+            "name": "United Healthcare"
+          }
+        },
+        {
+          "insurance_plan": {
+            "uid": "unitedhealthcare-uhcnavigatepos",
+            "name": "UHC Navigate POS",
+            "category": [
+              "medical"
+            ]
+          },
+          "insurance_provider": {
+            "uid": "unitedhealthcare",
+            "name": "United Healthcare"
+          }
+        },
+        {
+          "insurance_plan": {
+            "uid": "unitedhealthcare-uhcoptionsppo",
+            "name": "UHC Options PPO",
+            "category": [
+              "medical"
+            ]
+          },
+          "insurance_provider": {
+            "uid": "unitedhealthcare",
+            "name": "United Healthcare"
+          }
+        },
+        {
+          "insurance_plan": {
+            "uid": "firsthealthcoventryhealthcare-firsthealthppo",
+            "name": "First Health PPO",
+            "category": [
+              "medical"
+            ]
+          },
+          "insurance_provider": {
+            "uid": "firsthealthcoventryhealthcare",
+            "name": "First Health Coventry Healthcare"
+          }
+        }
+      ],
+      "specialties": [
+        {
+          "uid": "ear-nose-throat-doctor",
+          "name": "Otolaryngology",
+          "description": "Specializes in ear, nose and throat problems.",
+          "category": "medical",
+          "actor": "Ear, Nose and Throat Doctor",
+          "actors": "Ear, Nose and Throat Doctors"
+        },
+        {
+          "uid": "otology-neurotologist",
+          "name": "Otology & Neurotology",
+          "description": "Specializes in ear and hearing problems.",
+          "category": "medical",
+          "actor": "Otology Neurotologist",
+          "actors": "Otology Neurotologists"
+        }
+      ],
+      "licenses": [
+        {
+          "number": "LL15881",
+          "state": "OR"
+        }
+      ],
+      "uid": "c49d3501d27c088cef2950b6d61e35cf",
+      "npi": "1720009657"
+    },
+    {
+      "practices": [
+        {
+          "location_slug": "or-hillsboro",
+          "within_search_area": true,
+          "distance": 13.919330788306551,
+          "lat": 45.53928,
+          "lon": -122.87708,
+          "uid": "f8f491aa900d8734ec82fab364a53a7e",
+          "name": "Kaiser Permanente Westside Medical Center",
+          "website": "http://kp.org/kpweb/facilitydir/facility.do?id=302181",
+          "accepts_new_patients": true,
+          "insurance_uids": [
+            "humana-humanaatlantahmoxhix",
+            "premerabcbs-premeraheritagesignaturehix",
+            "premerabcbs-lifewiseconnecthix",
+            "medicaid-medicaid",
+            "medicare-medicare",
+            "aetna-aetnamdbronzesilverandgoldhmo"
+          ],
+          "visit_address": {
+            "city": "Hillsboro",
+            "lat": 45.53928,
+            "lon": -122.87708,
+            "state": "OR",
+            "state_long": "Oregon",
+            "street": "2875 NW Stucki Ave",
+            "zip": "97124"
+          },
+          "office_hours": [],
+          "phones": [
+            {
+              "number": "9713101000",
+              "type": "business_landline"
+            },
+            {
+              "number": "9713101000",
+              "type": "landline"
+            }
+          ],
+          "languages": [
+            {
+              "name": "English",
+              "code": "en"
+            }
+          ]
+        }
+      ],
+      "educations": [
+        {
+          "school": "University of Vermont College of Medicine",
+          "degree": "MD"
+        },
+        {
+          "school": "Oregon Health  Science University School of Medicine",
+          "degree": "Residency"
+        }
+      ],
+      "profile": {
+        "first_name": "Attilia",
+        "middle_name": "Marie",
+        "last_name": "Sawyer",
+        "slug": "attilia-sawyer-md",
+        "title": "MD",
+        "image_url": "https://asset4.betterdoctor.com/images/558cd371b9d6046c1d000fc9-2_thumbnail.jpg",
+        "gender": "female",
+        "languages": [
+          {
+            "name": "English",
+            "code": "en"
+          }
+        ],
+        "bio": "I grew up in Vermont and attended college at Skidmore College in Saratoga Springs, New York. I went to medical school at the University of Vermont. I came to Oregon for my otolaryngology residency at Oregon Health and Sciences University. After residency, I worked in Alaska for the Alaska Native Medical Center for five years. I got married, had my first child, then moved back to Oregon to work for Kaiser Permanente in 2002."
+      },
+      "ratings": [
+        {
+          "active": true,
+          "provider": "betterdoctor",
+          "provider_uid": "attilia-sawyer-md",
+          "rating": 5,
+          "review_count": 0,
+          "image_url_small": "https://asset2.betterdoctor.com/assets/consumer/stars/stars-small-5.0.png",
+          "image_url_small_2x": "https://asset2.betterdoctor.com/assets/consumer/stars/stars-small-5.0@2x.png",
+          "image_url_large": "https://asset2.betterdoctor.com/assets/consumer/stars/stars-large-5.0.png",
+          "image_url_large_2x": "https://asset2.betterdoctor.com/assets/consumer/stars/stars-large-5.0@2x.png"
+        }
+      ],
+      "insurances": [
+        {
+          "insurance_plan": {
+            "uid": "humana-humanaatlantahmoxhix",
+            "name": "Atlanta - HMOx HIX",
+            "category": [
+              "medical"
+            ]
+          },
+          "insurance_provider": {
+            "uid": "humana",
+            "name": "Humana"
+          }
+        },
+        {
+          "insurance_plan": {
+            "uid": "premerabcbs-premeraheritagesignaturehix",
+            "name": "Premera Heritage Signature - HIX",
+            "category": [
+              "medical"
+            ]
+          },
+          "insurance_provider": {
+            "uid": "premerabcbs",
+            "name": "Premera Blue Cross Blue Shield"
+          }
+        },
+        {
+          "insurance_plan": {
+            "uid": "premerabcbs-lifewiseconnecthix",
+            "name": "LifeWise Connect - HIX",
+            "category": [
+              "medical"
+            ]
+          },
+          "insurance_provider": {
+            "uid": "premerabcbs",
+            "name": "Premera Blue Cross Blue Shield"
+          }
+        },
+        {
+          "insurance_plan": {
+            "uid": "medicaid-medicaid",
+            "name": "Medicaid",
+            "category": [
+              "medical"
+            ]
+          },
+          "insurance_provider": {
+            "uid": "medicaid",
+            "name": "Medicaid"
+          }
+        },
+        {
+          "insurance_plan": {
+            "uid": "medicare-medicare",
+            "name": "Medicare",
+            "category": [
+              "medical"
+            ]
+          },
+          "insurance_provider": {
+            "uid": "medicare",
+            "name": "Medicare"
+          }
+        },
+        {
+          "insurance_plan": {
+            "uid": "aetna-aetnamdbronzesilverandgoldhmo",
+            "name": "MD Bronze Silver  Gold - HMO",
+            "category": [
+              "medical"
+            ]
+          },
+          "insurance_provider": {
+            "uid": "aetna",
+            "name": "Aetna"
+          }
+        }
+      ],
+      "specialties": [
+        {
+          "uid": "ear-nose-throat-doctor",
+          "name": "Otolaryngology",
+          "description": "Specializes in ear, nose and throat problems.",
+          "category": "medical",
+          "actor": "Ear, Nose and Throat Doctor",
+          "actors": "Ear, Nose and Throat Doctors"
+        }
+      ],
+      "licenses": [
+        {
+          "number": "MD00041145",
+          "state": "WA"
+        },
+        {
+          "number": "MD18394",
+          "state": "OR"
+        }
+      ],
+      "uid": "8117e0b5130c3e9678f7e739135b99b0",
+      "npi": "1477663268"
+    },
+    {
+      "practices": [
+        {
+          "location_slug": "or-corvallis",
+          "within_search_area": true,
+          "distance": 76.90825996642732,
+          "lat": 44.58574,
+          "lon": -123.27449,
+          "uid": "b8eb320450078b6fa24f8d788f3dd04e",
+          "name": "RYAN R. STEVENS, M.D., P.C.",
+          "accepts_new_patients": true,
+          "insurance_uids": [
+            "cigna-cignaopenaccessplus",
+            "aetna-aetnasignatureadministratorsppo",
+            "bcbsbluecard-bcbsbluecardppo",
+            "providencehealthsystem-providencepersonaloption",
+            "firstchoice-firstchoice",
+            "providencehealthsystem-providencepreferredppo",
+            "cigna-cignappo",
+            "aetna-aetnachoiceposii",
+            "uhcwestformerlypacificare-pacificarehmo",
+            "multiplan-phcsppo",
+            "multiplan-multiplanppo",
+            "healthnet-healthnetorppo",
+            "aetna-aetnamanagedchoiceposopenaccess",
+            "pacificsourcehealthplans-pacificsourcepreferredpsn",
+            "regencebluecrossblueshieldoforegon-regenceorpreferredprovidernetwork",
+            "odshealthplan-odsnetwork",
+            "lifewisehealthplanoforegon-lifewisehealthplanoforegon",
+            "premerabluecross-premeraheritageheritageplus1",
+            "premerabluecross-premeraheritagesignature",
+            "premerabluecross-premeralifewiseconnect",
+            "gwhcigna-greatwestppo",
+            "unitedhealthcare-uhcchoicepluspos",
+            "unitedhealthcare-uhcnavigatehmo",
+            "unitedhealthcare-uhcnavigatepos",
+            "unitedhealthcare-uhcoptionsppo",
+            "firsthealthcoventryhealthcare-firsthealthppo"
+          ],
+          "visit_address": {
+            "city": "Corvallis",
+            "lat": 44.58574,
+            "lon": -123.27449,
+            "state": "OR",
+            "state_long": "Oregon",
+            "street": "1867 NW Kings Blvd",
+            "zip": "97330"
+          },
+          "office_hours": [],
+          "phones": [
+            {
+              "number": "5417570800",
+              "type": "fax"
+            },
+            {
+              "number": "5417574999",
+              "type": "landline"
+            }
+          ],
+          "languages": [
+            {
+              "name": "English",
+              "code": "en"
+            }
+          ]
+        },
+        {
+          "location_slug": "or-corvallis",
+          "within_search_area": true,
+          "distance": 75.04922803880594,
+          "lat": 44.603395,
+          "lon": -123.252118,
+          "uid": "1042d20f1755e3712cc1807a8a237064",
+          "name": "Ryan Stevens, MD",
+          "accepts_new_patients": true,
+          "insurance_uids": [
+            "cigna-cignappo",
+            "cigna-cignaopenaccessplus",
+            "providencehealthsystem-providencepreferredppo",
+            "firstchoice-firstchoice",
+            "uhcwestformerlypacificare-pacificarehmo",
+            "healthnet-healthnetorppo",
+            "bcbsbluecard-bcbsbluecardppo",
+            "aetna-aetnamanagedchoiceposopenaccess",
+            "aetna-aetnachoiceposii",
+            "aetna-aetnasignatureadministratorsppo",
+            "multiplan-multiplanppo",
+            "multiplan-phcsppo",
+            "premerabcbs-premeraheritagesignaturehix",
+            "medicare-medicare",
+            "medicaid-medicaid",
+            "pacificsourcehealthplans-pacificsourcepreferredpsn",
+            "odshealthplan-odsnetwork",
+            "premerabluecross-premeraheritageheritageplus1",
+            "premerabluecross-premeraheritagesignature",
+            "gwhcigna-greatwestppo",
+            "unitedhealthcare-uhcchoicepluspos",
+            "unitedhealthcare-uhcnavigatehmo",
+            "unitedhealthcare-uhcnavigatepos",
+            "unitedhealthcare-uhcoptionsppo",
+            "firsthealthcoventryhealthcare-firsthealthppo"
+          ],
+          "visit_address": {
+            "city": "Corvallis",
+            "lat": 44.603395,
+            "lon": -123.252118,
+            "state": "OR",
+            "state_long": "Oregon",
+            "street": "3600 NW Samaritan Dr",
+            "zip": "97330"
+          },
+          "office_hours": [],
+          "phones": [
+            {
+              "number": "5033722740",
+              "type": "business_landline"
+            },
+            {
+              "number": "5033722754",
+              "type": "business_fax"
+            },
+            {
+              "number": "5417685111",
+              "type": "landline"
+            }
+          ],
+          "languages": [
+            {
+              "name": "English",
+              "code": "en"
+            }
+          ]
+        }
+      ],
+      "educations": [],
+      "profile": {
+        "first_name": "Ryan",
+        "middle_name": "Richard",
+        "last_name": "Stevens",
+        "slug": "ryan-stevens-md",
+        "title": "MD",
+        "image_url": "https://asset3.betterdoctor.com/assets/general_doctor_male.png",
+        "gender": "male",
+        "languages": [
+          {
+            "name": "English",
+            "code": "en"
+          }
+        ],
+        "bio": "Dr. Ryan Stevens, MD--specialist in otolaryngology and otolaryngology/facial plastic surgery--currently sees patients in Corvallis, Oregon.\n\n\n\nIn addition to having active medical licenses, Dr. Stevens has passed an automated background check which looked at elements including medical license status and malpractice screening (no history found)."
+      },
+      "ratings": [],
+      "insurances": [
+        {
+          "insurance_plan": {
+            "uid": "cigna-cignaopenaccessplus",
+            "name": "CIGNA Open Access Plus",
+            "category": [
+              "medical"
+            ]
+          },
+          "insurance_provider": {
+            "uid": "cigna",
+            "name": "Cigna"
+          }
+        },
+        {
+          "insurance_plan": {
+            "uid": "aetna-aetnasignatureadministratorsppo",
+            "name": "Aetna Signature Administrators PPO",
+            "category": [
+              "medical"
+            ]
+          },
+          "insurance_provider": {
+            "uid": "aetna",
+            "name": "Aetna"
+          }
+        },
+        {
+          "insurance_plan": {
+            "uid": "bcbsbluecard-bcbsbluecardppo",
+            "name": "BCBS Blue Card PPO",
+            "category": [
+              "medical"
+            ]
+          },
+          "insurance_provider": {
+            "uid": "bcbsbluecard",
+            "name": "BCBS Blue Card"
+          }
+        },
+        {
+          "insurance_plan": {
+            "uid": "providencehealthsystem-providencepersonaloption",
+            "name": "Providence Personal Option",
+            "category": [
+              "medical"
+            ]
+          },
+          "insurance_provider": {
+            "uid": "providencehealthsystem",
+            "name": "Providence Health System"
+          }
+        },
+        {
+          "insurance_plan": {
+            "uid": "firstchoice-firstchoice",
+            "name": "First Choice",
+            "category": [
+              "medical"
+            ]
+          },
+          "insurance_provider": {
+            "uid": "firstchoice",
+            "name": "First Choice"
+          }
+        },
+        {
+          "insurance_plan": {
+            "uid": "providencehealthsystem-providencepreferredppo",
+            "name": "Providence Preferred PPO",
+            "category": [
+              "medical"
+            ]
+          },
+          "insurance_provider": {
+            "uid": "providencehealthsystem",
+            "name": "Providence Health System"
+          }
+        },
+        {
+          "insurance_plan": {
+            "uid": "cigna-cignappo",
+            "name": "CIGNA PPO",
+            "category": [
+              "medical"
+            ]
+          },
+          "insurance_provider": {
+            "uid": "cigna",
+            "name": "Cigna"
+          }
+        },
+        {
+          "insurance_plan": {
+            "uid": "aetna-aetnachoiceposii",
+            "name": "Aetna Choice POS II",
+            "category": [
+              "medical"
+            ]
+          },
+          "insurance_provider": {
+            "uid": "aetna",
+            "name": "Aetna"
+          }
+        },
+        {
+          "insurance_plan": {
+            "uid": "uhcwestformerlypacificare-pacificarehmo",
+            "name": "Pacificare HMO",
+            "category": [
+              "medical"
+            ]
+          },
+          "insurance_provider": {
+            "uid": "uhcwestformerlypacificare",
+            "name": "UHC West Formerly Pacificare"
+          }
+        },
+        {
+          "insurance_plan": {
+            "uid": "multiplan-phcsppo",
+            "name": "PHCS PPO",
+            "category": [
+              "medical"
+            ]
+          },
+          "insurance_provider": {
+            "uid": "multiplan",
+            "name": "Multiplan"
+          }
+        },
+        {
+          "insurance_plan": {
+            "uid": "multiplan-multiplanppo",
+            "name": "Multiplan PPO",
+            "category": [
+              "medical"
+            ]
+          },
+          "insurance_provider": {
+            "uid": "multiplan",
+            "name": "Multiplan"
+          }
+        },
+        {
+          "insurance_plan": {
+            "uid": "healthnet-healthnetorppo",
+            "name": "Health Net OR PPO",
+            "category": [
+              "medical"
+            ]
+          },
+          "insurance_provider": {
+            "uid": "healthnet",
+            "name": "Health Net"
+          }
+        },
+        {
+          "insurance_plan": {
+            "uid": "aetna-aetnamanagedchoiceposopenaccess",
+            "name": "Aetna Managed Choice POS Open Access",
+            "category": [
+              "medical"
+            ]
+          },
+          "insurance_provider": {
+            "uid": "aetna",
+            "name": "Aetna"
+          }
+        },
+        {
+          "insurance_plan": {
+            "uid": "pacificsourcehealthplans-pacificsourcepreferredpsn",
+            "name": "PacificSource Preferred PSN",
+            "category": [
+              "medical"
+            ]
+          },
+          "insurance_provider": {
+            "uid": "pacificsourcehealthplans",
+            "name": "PacificSource Health Plans"
+          }
+        },
+        {
+          "insurance_plan": {
+            "uid": "regencebluecrossblueshieldoforegon-regenceorpreferredprovidernetwork",
+            "name": "Regence OR Preferred Provider Network",
+            "category": [
+              "medical"
+            ]
+          },
+          "insurance_provider": {
+            "uid": "regencebluecrossblueshieldoforegon",
+            "name": "Regence Blue Cross Blue Shield of Oregon"
+          }
+        },
+        {
+          "insurance_plan": {
+            "uid": "odshealthplan-odsnetwork",
+            "name": "ODS Network",
+            "category": [
+              "medical"
+            ]
+          },
+          "insurance_provider": {
+            "uid": "odshealthplan",
+            "name": "ODS Health Plan"
+          }
+        },
+        {
+          "insurance_plan": {
+            "uid": "lifewisehealthplanoforegon-lifewisehealthplanoforegon",
+            "name": "Lifewise Health Plan of Oregon",
+            "category": [
+              "medical"
+            ]
+          },
+          "insurance_provider": {
+            "uid": "lifewisehealthplanoforegon",
+            "name": "Lifewise health Plan of Oregon"
+          }
+        },
+        {
+          "insurance_plan": {
+            "uid": "premerabluecross-premeraheritageheritageplus1",
+            "name": "Premera Heritage  Heritage Plus 1",
+            "category": [
+              "medical"
+            ]
+          },
+          "insurance_provider": {
+            "uid": "premerabluecross",
+            "name": "Premera Blue Cross"
+          }
+        },
+        {
+          "insurance_plan": {
+            "uid": "premerabluecross-premeraheritagesignature",
+            "name": "Premera Heritage Signature",
+            "category": [
+              "medical"
+            ]
+          },
+          "insurance_provider": {
+            "uid": "premerabluecross",
+            "name": "Premera Blue Cross"
+          }
+        },
+        {
+          "insurance_plan": {
+            "uid": "premerabluecross-premeralifewiseconnect",
+            "name": "Premera LifeWise Connect",
+            "category": [
+              "medical"
+            ]
+          },
+          "insurance_provider": {
+            "uid": "premerabluecross",
+            "name": "Premera Blue Cross"
+          }
+        },
+        {
+          "insurance_plan": {
+            "uid": "gwhcigna-greatwestppo",
+            "name": "Great West PPO",
+            "category": [
+              "medical"
+            ]
+          },
+          "insurance_provider": {
+            "uid": "gwhcigna",
+            "name": "GWH-Cigna"
+          }
+        },
+        {
+          "insurance_plan": {
+            "uid": "unitedhealthcare-uhcchoicepluspos",
+            "name": "UHC Choice Plus POS",
+            "category": [
+              "medical"
+            ]
+          },
+          "insurance_provider": {
+            "uid": "unitedhealthcare",
+            "name": "United Healthcare"
+          }
+        },
+        {
+          "insurance_plan": {
+            "uid": "unitedhealthcare-uhcnavigatehmo",
+            "name": "UHC Navigate HMO",
+            "category": [
+              "medical"
+            ]
+          },
+          "insurance_provider": {
+            "uid": "unitedhealthcare",
+            "name": "United Healthcare"
+          }
+        },
+        {
+          "insurance_plan": {
+            "uid": "unitedhealthcare-uhcnavigatepos",
+            "name": "UHC Navigate POS",
+            "category": [
+              "medical"
+            ]
+          },
+          "insurance_provider": {
+            "uid": "unitedhealthcare",
+            "name": "United Healthcare"
+          }
+        },
+        {
+          "insurance_plan": {
+            "uid": "unitedhealthcare-uhcoptionsppo",
+            "name": "UHC Options PPO",
+            "category": [
+              "medical"
+            ]
+          },
+          "insurance_provider": {
+            "uid": "unitedhealthcare",
+            "name": "United Healthcare"
+          }
+        },
+        {
+          "insurance_plan": {
+            "uid": "firsthealthcoventryhealthcare-firsthealthppo",
+            "name": "First Health PPO",
+            "category": [
+              "medical"
+            ]
+          },
+          "insurance_provider": {
+            "uid": "firsthealthcoventryhealthcare",
+            "name": "First Health Coventry Healthcare"
+          }
+        },
+        {
+          "insurance_plan": {
+            "uid": "premerabcbs-premeraheritagesignaturehix",
+            "name": "Premera Heritage Signature - HIX",
+            "category": [
+              "medical"
+            ]
+          },
+          "insurance_provider": {
+            "uid": "premerabcbs",
+            "name": "Premera Blue Cross Blue Shield"
+          }
+        },
+        {
+          "insurance_plan": {
+            "uid": "medicare-medicare",
+            "name": "Medicare",
+            "category": [
+              "medical"
+            ]
+          },
+          "insurance_provider": {
+            "uid": "medicare",
+            "name": "Medicare"
+          }
+        },
+        {
+          "insurance_plan": {
+            "uid": "medicaid-medicaid",
+            "name": "Medicaid",
+            "category": [
+              "medical"
+            ]
+          },
+          "insurance_provider": {
+            "uid": "medicaid",
+            "name": "Medicaid"
+          }
+        }
+      ],
+      "specialties": [
+        {
+          "uid": "ear-nose-throat-doctor",
+          "name": "Otolaryngology",
+          "description": "Specializes in ear, nose and throat problems.",
+          "category": "medical",
+          "actor": "Ear, Nose and Throat Doctor",
+          "actors": "Ear, Nose and Throat Doctors"
+        }
+      ],
+      "claims": [
+        {
+          "hcpcs": "99213",
+          "hcpcs_description": "Office / outpatient visit, established patient, 15 minutes",
+          "service_cnt": 125,
+          "bene_uniq_cnt": 98,
+          "avg_allowed_amt": 68.23,
+          "avg_charge_amt": 227,
+          "avg_payment_amt": 50.61008
+        },
+        {
+          "hcpcs": "99203",
+          "hcpcs_description": "Office / outpatient visit, new patient, 30 minutes",
+          "service_cnt": 118,
+          "bene_uniq_cnt": 118,
+          "avg_allowed_amt": 101.41,
+          "avg_charge_amt": 339,
+          "avg_payment_amt": 74.291949153
+        },
+        {
+          "hcpcs": "92557",
+          "hcpcs_description": "Comprehensive hearing test",
+          "service_cnt": 98,
+          "bene_uniq_cnt": 95,
+          "avg_allowed_amt": 38.09,
+          "avg_charge_amt": 126,
+          "avg_payment_amt": 28.566428571
+        },
+        {
+          "hcpcs": "92550",
+          "hcpcs_description": "Tympanometry and acoustic reflex testing",
+          "service_cnt": 78,
+          "bene_uniq_cnt": 78,
+          "avg_allowed_amt": 20.31,
+          "avg_charge_amt": 67,
+          "avg_payment_amt": 16.031410256
+        },
+        {
+          "hcpcs": "99204",
+          "hcpcs_description": "Office / outpatient visit, new patient, 45 minutes",
+          "service_cnt": 48,
+          "bene_uniq_cnt": 48,
+          "avg_allowed_amt": 155.06,
+          "avg_charge_amt": 519,
+          "avg_payment_amt": 117.718125
+        },
+        {
+          "hcpcs": "31575",
+          "hcpcs_description": "Diagnostic laryngoscopy",
+          "service_cnt": 43,
+          "bene_uniq_cnt": 37,
+          "avg_allowed_amt": 111.37976744,
+          "avg_charge_amt": 378,
+          "avg_payment_amt": 86.260930233
+        },
+        {
+          "hcpcs": "69210",
+          "hcpcs_description": "Remove impacted ear wax",
+          "service_cnt": 43,
+          "bene_uniq_cnt": 37,
+          "avg_allowed_amt": 46.556744186,
+          "avg_charge_amt": 166,
+          "avg_payment_amt": 34.460232558
+        },
+        {
+          "hcpcs": "92567",
+          "hcpcs_description": "Tympanometry",
+          "service_cnt": 41,
+          "bene_uniq_cnt": 36,
+          "avg_allowed_amt": 14.55,
+          "avg_charge_amt": 48,
+          "avg_payment_amt": 11.072195122
+        },
+        {
+          "hcpcs": "76536",
+          "hcpcs_description": "Ultrasound examination of head and neck",
+          "service_cnt": 40,
+          "bene_uniq_cnt": 38,
+          "avg_allowed_amt": 118.8,
+          "avg_charge_amt": 398,
+          "avg_payment_amt": 93.722
+        },
+        {
+          "hcpcs": "31231",
+          "hcpcs_description": "Nasal endoscopy, diagnostic",
+          "service_cnt": 35,
+          "bene_uniq_cnt": 27,
+          "avg_allowed_amt": 186.93085714,
+          "avg_charge_amt": 636,
+          "avg_payment_amt": 144.83742857
+        },
+        {
+          "hcpcs": "99202",
+          "hcpcs_description": "Office / outpatient visit, new patient, 20 minutes",
+          "service_cnt": 32,
+          "bene_uniq_cnt": 32,
+          "avg_allowed_amt": 70.15,
+          "avg_charge_amt": 234,
+          "avg_payment_amt": 47.0290625
+        },
+        {
+          "hcpcs": "99212",
+          "hcpcs_description": "Office / outpatient visit, established patient, 10 minutes",
+          "service_cnt": 25,
+          "bene_uniq_cnt": 19,
+          "avg_allowed_amt": 41.09,
+          "avg_charge_amt": 137,
+          "avg_payment_amt": 31.5552
+        },
+        {
+          "hcpcs": "99214",
+          "hcpcs_description": "Office / outpatient visit, established patient, 25 minutes",
+          "service_cnt": 23,
+          "bene_uniq_cnt": 22,
+          "avg_allowed_amt": 100.99,
+          "avg_charge_amt": 336,
+          "avg_payment_amt": 67.563478261
+        },
+        {
+          "hcpcs": "30901",
+          "hcpcs_description": "Control of nosebleed",
+          "service_cnt": 17,
+          "bene_uniq_cnt": 16,
+          "avg_allowed_amt": 93.24,
+          "avg_charge_amt": 314,
+          "avg_payment_amt": 74.59
+        }
+      ],
+      "licenses": [],
+      "uid": "c95156ea4d8c88621b6a31e6907a7ae7",
+      "npi": "1417938309"
+    }
+  ]
+};

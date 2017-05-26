@@ -1,12 +1,15 @@
 var Doctor = require('./../js/doctor.js').doctorModule;
 
 function displayResults(array) {
-  $('.results').text(array);
+  array.forEach(function(doctor) {
+    $('.results').append(`<p>${doctor.first_name}</p>`);
+  });
 }
 
 $(function(){
   var newDoctor = new Doctor();
-  $('h1').click(function() {
-    newDoctor.getDoctors('sore throat', displayResults);
+  $('#search').click(function() {
+    var symptom = $('#symptom').val();
+    newDoctor.getDoctors(symptom, displayResults);
   });
 });
