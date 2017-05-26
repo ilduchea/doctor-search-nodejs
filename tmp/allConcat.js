@@ -1,6 +1,22 @@
 var Doctor = require('./../js/doctor.js').doctorModule;
 
-function displayName(results) {
+function displaySpecialties(specialties) {
+  specialties.forEach(function(specialty) {
+    $('ul.specialties').last().append(
+      `<li>${specialty.name}</li>`
+    );
+  });
+}
+
+function displayPhoneNumbers(phones) {
+  phones.forEach(function(phone) {
+    $('div.phones').last().append(
+      `<p>${phone.type}: ${phone.number}`
+    );
+  });
+}
+
+function displayResults(results) {
   var i = 1;
 
   results.forEach(function(result) {
@@ -9,7 +25,6 @@ function displayName(results) {
     var last_name = result.profile.last_name;
     var title = result.profile.title;
     var img_url = result.profile.image_url;
-    console.log(img_url);
     var bio = result.profile.bio;
     var specialties = result.specialties;
     var buisness_name = result.practices[0].name;
@@ -19,66 +34,55 @@ function displayName(results) {
     var zip = result.practices[0].visit_address.zip;
     var phones = result.practices[0].phones;
 
-    $('.results').append(`<div class="doc${i}"></div>`);
+    $('.results').append(`<div></div>`);
     $('div').last().append(
-      `<h4>${first_name} ${middle_name} ${last_name} ${title}</h4>`+
-      '<div class="row details">'+
+      `<h2>${first_name} ${middle_name} ${last_name} ${title}</h2>`+
+      `<div class="row doc${i} details">`+
         '<div class="col-md-3">'+
           `<img src="${img_url}">`+
         '</div>'+
         '<div class="col-md-6">'+
           '<div class="row">'+
-            '<h5>Bio</h5>'+
+            '<h3>Bio</h3>'+
             `<p>${bio}</p>`+
           '</div>'+
           '<div class="row">'+
             '<div class="col-md-4">'+
-              '<h5>Specialties</h5>'+
+              '<h3>Specialties</h3>'+
               '<ul class="specialties">'+
               '</ul>'+
             '</div>'+
             '<div class="col-md-4">'+
-              '<h5>Address</h5>'+
-              `<h5>${buisness_name}</h5>`+
+              '<h3>Address</h3>'+
+              `<h4>${buisness_name}</h4>`+
               `<p>${street}</p>`+
               `<p>${city}, ${state} ${zip}</p>`+
             '</div>'+
             '<div class="col-md-4 phones">'+
-              '<h5>Contact</h5>'+
+              '<h3>Contact</h3>'+
             '</div>'+
           '</div>'+
         '</div>'+
-      '</div>'
+      '</div>'+
+      '<hr>'
     );
 
-    specialties.forEach(function(specialty) {
-      $('ul.specialties').last().append(
-        `<li>${specialty.name}</li>`
-      );
-    });
+    displaySpecialties(specialties);
+    displayPhoneNumbers(phones);
 
-    phones.forEach(function(phone) {
-      $('div.phones').last().append(
-        `<p>${phone.type}: ${phone.number}`
-      );
-    });
-
-    $(`h4.doc${i}`).click(function() {
-      $('div.details').last().toggle();
-      console.log(first_name);
-    });
+    // $(`h4`).last().click(function() {
+    //   $(`.details`).toggle();
+    //   console.log(first_name);
+    // });
     i++;
   });
-}
-
-function displayResults(results) {
-  displayName(results);
 }
 
 $(function(){
   var newDoctor = new Doctor();
   $('#search').click(function() {
     var symptom = $('#symptom').val();
+    $('.results').text('');
     newDoctor.getDoctors(symptom, displayResults);
   });
 });

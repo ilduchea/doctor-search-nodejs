@@ -1,6 +1,22 @@
 var Doctor = require('./../js/doctor.js').doctorModule;
 
-function displayName(results) {
+function displaySpecialties(specialties) {
+  specialties.forEach(function(specialty) {
+    $('ul.specialties').last().append(
+      `<li>${specialty.name}</li>`
+    );
+  });
+}
+
+function displayPhoneNumbers(phones) {
+  phones.forEach(function(phone) {
+    $('div.phones').last().append(
+      `<p>${phone.type}: ${phone.number}`
+    );
+  });
+}
+
+function displayResults(results) {
   var i = 1;
 
   results.forEach(function(result) {
@@ -51,35 +67,22 @@ function displayName(results) {
       '<hr>'
     );
 
-    specialties.forEach(function(specialty) {
-      $('ul.specialties').last().append(
-        `<li>${specialty.name}</li>`
-      );
-    });
-
-    phones.forEach(function(phone) {
-      $('div.phones').last().append(
-        `<p>${phone.type}: ${phone.number}`
-      );
-    });
+    displaySpecialties(specialties);
+    displayPhoneNumbers(phones);
 
     // $(`h4`).last().click(function() {
-    //   $(`.details`).removeClass('details');
+    //   $(`.details`).toggle();
     //   console.log(first_name);
     // });
     i++;
   });
-
-}
-
-function displayResults(results) {
-  displayName(results);
 }
 
 $(function(){
   var newDoctor = new Doctor();
   $('#search').click(function() {
     var symptom = $('#symptom').val();
+    $('.results').text('');
     newDoctor.getDoctors(symptom, displayResults);
   });
 });
