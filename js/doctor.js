@@ -21,7 +21,7 @@ Doctor.prototype.getDoctors = function(medicalIssue, displayResults) {
   // using example data
   var doctors = [];
   example.data.forEach(function(doctor) {
-    doctors.push(doctor.profile);
+    doctors.push(doctor);
   });
   displayResults(doctors);
 };
